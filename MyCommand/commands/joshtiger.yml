@@ -5,8 +5,8 @@ jtcmd:
   - $multiargs
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/jtcmd &a[CMD] &6- CustomCMDLine"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/jtcmd &a[CMD] &6- CustomCMDLine"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
   
@@ -18,8 +18,8 @@ sethp:
 
   cooldown: 3
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/jtcmd &a[CMD] &6- CustomCMDLine"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/jtcmd &a[CMD] &6- CustomCMDLine"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
 
@@ -30,7 +30,7 @@ pickup:
   - /execute as $player at @s run function joshtiger:commands/-pickup/pickup
 
   cooldown: 1
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
 
@@ -38,12 +38,12 @@ createflyingblock:
   command: /createflyingblock
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &bSpawned flying &e$multiargs &bblock.'
+  - '$text$&9&f[&4&lFF&f]: &bSpawned flying &e$multiargs &bblock.'
   - /execute as $player at @s run summon minecraft:bat ~ ~0.85 ~ {Silent:1b,DeathLootTable:"empty",Passengers:[{id:"minecraft:falling_block",BlockState:{Name:"minecraft:$multiargs"},Time:1,DropItem:0b}],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999,ShowParticles:0b},{Id:20b,Amplifier:1b,Duration:999,ShowParticles:0b}]}
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/createflyingblock &a[Block] &6- Spawns a flying block."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/createflyingblock &a[Block] &6- Spawns a flying block."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
 
@@ -55,7 +55,7 @@ blockCMD:
   runcmd:
   - '$text$&fnull'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   
@@ -74,8 +74,8 @@ discordvjoin:
   delaytimer: 1
   delaytimer_format: TICKS
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/discordvjoin &e[player] &6- Annount a voice join."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/discordvjoin &e[player] &6- Annount a voice join."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: false
   
@@ -92,8 +92,8 @@ discordvleave:
   delaytimer: 1
   delaytimer_format: TICKS
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/discordvjoin &e[player] &6- Annount a voice join."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/discordvjoin &e[player] &6- Annount a voice join."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: false
   
@@ -109,54 +109,55 @@ reloadnear:
 
   delaytimer: 6
   delaytimer_format: TICKS
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
 
-jumpscare:
-  command: /jumpscare
-  type: RUN_COMMAND
-  runcmd:
-  - $Script$%if%$arg1==1
-  - '$text$&a$arg2 &c&lhas been jumpscared!'
-  - /execute as $arg2 at @s run playsound minecraft:block.end_portal.spawn master @s ~ ~ ~ 5 1
-  - /execute as $arg2 at @s run playsound minecraft:block.end_portal.spawn master @s ~ ~ ~ 5 1.8
-  - /execute as $arg2 at @s run playsound minecraft:entity.zombie_villager.cure master @s ~ ~ ~ 5 1.5
-  - /execute as $arg2 at @s run tp @s ~ ~ ~ ~95 ~5
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-95 ~5
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-10 ~-10
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~5 ~5
-
-  - $Script$%if%$arg1==2
-  - '$text$&a$arg2 &c&lhas been jumpscared!'
-  - /execute as @e at @s run execute as $arg2 at @s run playsound minecraft:block.end_portal.spawn master @s ~ ~ ~ 5 1.2
-
-  - /execute as $arg2 at @s run tp @s ~ ~ ~ ~95 ~5
-  - /effect give $arg2 minecraft:speed 30 150 true
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-95 ~5
-  - $delay$/effect clear $arg2 minecraft:speed
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-10 ~-10
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~5 ~5
-
-
-  - $Script$%if%$arg1==3
-  - '$text$&a$arg2 &c&lhas been jumpscared!'
-  - /execute as @e at @s run execute as $arg2 at @s run playsound minecraft:entity.zombie_villager.cure master @s ~ ~ ~ 5 1.2
-
-  - /execute as $arg2 at @s run tp @s ~ ~ ~ ~95 ~5
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-95 ~5
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-10 ~-10
-  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~5 ~5
-
-  - $Script$%if%1==1
-
-  delaytimer: 1
-  delaytimer_format: TICKS
-  required_args: 2
-  error-message: "&9[&2&lJ&6&lT&9]: &b/jumpscare &e[type] &a[player] &6- Spooky x3"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cShhh... this is not really a command, plus if it was... you do not have access to it. -u-"
-  permission-required: true
-  register: true
+##Jumpscare command, commented out since it's assholish  
+#jumpscare:
+#  command: /jumpscare
+#  type: RUN_COMMAND
+#  runcmd:
+#  - $Script$%if%$arg1==1
+#  - '$text$&a$arg2 &c&lhas been jumpscared!'
+#  - /execute as $arg2 at @s run playsound minecraft:block.end_portal.spawn master @s ~ ~ ~ 5 1
+#  - /execute as $arg2 at @s run playsound minecraft:block.end_portal.spawn master @s ~ ~ ~ 5 1.8
+#  - /execute as $arg2 at @s run playsound minecraft:entity.zombie_villager.cure master @s ~ ~ ~ 5 1.5
+#  - /execute as $arg2 at @s run tp @s ~ ~ ~ ~95 ~5
+#  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-95 ~5
+#  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-10 ~-10
+#  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~5 ~5
+#
+#  - $Script$%if%$arg1==2
+#  - '$text$&a$arg2 &c&lhas been jumpscared!'
+#  - /execute as @e at @s run execute as $arg2 at @s run playsound minecraft:block.end_portal.spawn master @s ~ ~ ~ 5 1.2
+#
+#  - /execute as $arg2 at @s run tp @s ~ ~ ~ ~95 ~5
+#  - /effect give $arg2 minecraft:speed 30 150 true
+#  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-95 ~5
+#  - $delay$/effect clear $arg2 minecraft:speed
+#  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-10 ~-10
+#  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~5 ~5
+#
+#
+#  - $Script$%if%$arg1==3
+# - '$text$&a$arg2 &c&lhas been jumpscared!'
+#  - /execute as @e at @s run execute as $arg2 at @s run playsound minecraft:entity.zombie_villager.cure master @s ~ ~ ~ 5 1.2
+#
+#  - /execute as $arg2 at @s run tp @s ~ ~ ~ ~95 ~5
+# - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-95 ~5
+#  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~-10 ~-10
+#  - $delay$/execute as $arg2 at @s run tp @s ~ ~ ~ ~5 ~5
+#
+#  - $Script$%if%1==1
+#
+#  delaytimer: 1
+#  delaytimer_format: TICKS
+#  required_args: 2
+#  error-message: "&9&f[&4&lFF&f]: &b/jumpscare &e[type] &a[player] &6- Spooky x3"
+#  permission-error: "&9&f[&4&lFF&f]: &cShhh... this is not really a command, plus if it was... you do not have access to it. -u-"
+#  permission-required: true
+#  register: true
  
 unload:
   command: /unload
@@ -169,8 +170,8 @@ unload:
   delaytimer: 1
   delaytimer_format: TICKS
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/unload &a[player] &6- Unloads the chunks for the target."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/unload &a[player] &6- Unloads the chunks for the target."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
   
@@ -187,8 +188,8 @@ load:
   delaytimer: 6
   delaytimer_format: TICKS
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/load &a[player] &6- Loads the chunks for the target."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/load &a[player] &6- Loads the chunks for the target."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
 
@@ -198,11 +199,11 @@ dismount:
   runcmd:
   - /tellraw @a[tag=JTCMDLOG] {"text":"&e[&2§lJ&6§lT&e] &a$player &eused &b/Dismount $multiargs&e."}
   - /execute as $arg1 at @s if entity @s[type=player] run tp @s ~ ~0.5 ~
-  - '$text$&9[&2&lJ&6&lT&9]: &eDismounted player &a$arg1&e.'
+  - '$text$&9&f[&4&lFF&f]: &eDismounted player &a$arg1&e.'
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/dismount &a[player] &6- Dismounts a player from a mount. &7(Boat/Horse/Minecart/Etc)"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/dismount &a[player] &6- Dismounts a player from a mount. &7(Boat/Horse/Minecart/Etc)"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   permission-node: joshtiger.dismount
   register: true
@@ -213,31 +214,33 @@ GiveTextureID:
   runcmd:
   - /tellraw @a[tag=JTCMDLOG] {"text":"&e[&2§lJ&6§lT&e] &a$player &eused &b/GiveTextureID $multiargs&e."}
   - /execute as $player at @s run give @s $arg1{CustomModelData:$arg2}
-  - '$text$&9[&2&lJ&6&lT&9]: &aGiven &e$arg1 &awith TextureID &b&l$arg2&a.'
+  - '$text$&9&f[&4&lFF&f]: &aGiven &e$arg1 &awith TextureID &b&l$arg2&a.'
 
   required_args: 2
-  error-message: "&9[&2&lJ&6&lT&9]: &b/GiveTextureID &a[item_name] [textureID] &6- Gives you a custom textured item."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/GiveTextureID &a[item_name] [textureID] &6- Gives you a custom textured item."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   permission-node: joshtiger.givetextureid
   register: true
   
-off:
+#/Off just a command to put in text that you were switched off, does nothing of importance.
+ off:
   command: /off
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &7You were switched to &c&lOff&7.'
+  - '$text$&9&f[&4&lFF&f]: &7You were switched to &c&lOff&7.'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   
+#/On does like /Off, just a command to put text that you were switched on, does nothing of importance.
 on:
   command: /on
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &7You were switched to &a&lOn&7.'
+  - '$text$&9&f[&4&lFF&f]: &7You were switched to &a&lOn&7.'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   
 fursona:
@@ -246,7 +249,7 @@ fursona:
   runcmd:
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - '$text$&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-'
-  - '$text$&b&9[&2&lJ&6&lT&9]: &6Displaying fursona commands. &e&l[&e&lWIP&e&l]'
+  - '$text$&b&9&f[&4&lFF&f]: &6Displaying fursona commands. &e&l[&e&lWIP&e&l]'
   - '$text$&b/Fursona &6- Displays this page'
   - '$text$&b/CheckFursona &a[Player] &6- Checks another player'
   - '$text$&b/FursonaName &a[Name] &6- Sets fursonas name'
@@ -291,7 +294,7 @@ fursona:
   - $Script$%if%1==1
   - '$text$&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cThis command seems to be disabled for now."
+  permission-error: "&9&f[&4&lFF&f]: &cThis command seems to be disabled for now."
   permission-required: false
   register: true
   
@@ -335,8 +338,8 @@ checkfursona:
   - '$text$&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-'
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/CheckFursona &a[Player] &6- Check their fursona page"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cThis command seems to be disabled for now."
+  error-message: "&9&f[&4&lFF&f]: §b/CheckFursona &a[Player] &6- Check their fursona page"
+  permission-error: "&9&f[&4&lFF&f]: &cThis command seems to be disabled for now."
   permission-required: false
   register: true
 
@@ -347,12 +350,12 @@ fursonaname:
   runcmd:
   - $Script$%PlayerData%FursonaName=$multiargs
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
-  - '$text$&9[&2&lJ&6&lT&9]: &aFursona renamed as "&b$PlayerData%FursonaName%&a"'
+  - '$text$&9&f[&4&lFF&f]: &aFursona renamed as "&b$PlayerData%FursonaName%&a"'
 
   cooldown: 3
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/FursonaName &a[Name] &6- Set your fursona name"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/FursonaName &a[Name] &6- Set your fursona name"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
 
@@ -362,12 +365,12 @@ fursonagender:
   runcmd:
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - $Script$%PlayerData%FursonaGender=$multiargs
-  - '$text$&9[&2&lJ&6&lT&9]: &aGender set to "&b$PlayerData%FursonaGender%&a"'
+  - '$text$&9&f[&4&lFF&f]: &aGender set to "&b$PlayerData%FursonaGender%&a"'
 
   cooldown: 3
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/FursonaGender &a[Gender] &6- Set your fursona gender."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/FursonaGender &a[Gender] &6- Set your fursona gender."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
 
@@ -377,12 +380,12 @@ fursonaspecies:
   runcmd:
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - $Script$%PlayerData%FursonaSpecies=$multiargs
-  - '$text$&9[&2&lJ&6&lT&9]: &aSpecies set to "&b$PlayerData%FursonaSpecies%&a"'
+  - '$text$&9&f[&4&lFF&f]: &aSpecies set to "&b$PlayerData%FursonaSpecies%&a"'
 
   cooldown: 3
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/FursonaSpecies &a[Species] &6- Your fursona species"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/FursonaSpecies &a[Species] &6- Your fursona species"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   
@@ -392,12 +395,12 @@ fursonabody:
   runcmd:
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - $Script$%PlayerData%FursonaBodyType=$multiargs
-  - '$text$&9[&2&lJ&6&lT&9]: &aBodyType set to "&b$PlayerData%FursonaBodyType%&a"'
+  - '$text$&9&f[&4&lFF&f]: &aBodyType set to "&b$PlayerData%FursonaBodyType%&a"'
 
   cooldown: 3
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/FursonaBodyType &a[BodyType] &6- Feral/Antro/Etc"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/FursonaBodyType &a[BodyType] &6- Feral/Antro/Etc"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
 
@@ -407,12 +410,12 @@ fursonacolors:
   runcmd:
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - $Script$%PlayerData%FursonaColors=$multiargs
-  - '$text$&9[&2&lJ&6&lT&9]: &aColors set to "&b$PlayerData%FursonaColors%&a"'
+  - '$text$&9&f[&4&lFF&f]: &aColors set to "&b$PlayerData%FursonaColors%&a"'
 
   cooldown: 3
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/FursonaColors &a[Colors] &6- Your fursonas color theme"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/FursonaColors &a[Colors] &6- Your fursonas color theme"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
 
@@ -422,12 +425,12 @@ fursonabio:
   runcmd:
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - $Script$%PlayerData%FursonaBio=$multiargs
-  - '$text$&9[&2&lJ&6&lT&9]: &aBio set to "&b$PlayerData%FursonaBio%&a"'
+  - '$text$&9&f[&4&lFF&f]: &aBio set to "&b$PlayerData%FursonaBio%&a"'
 
   cooldown: 3
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: §b/FursonaBio &a[Bio] &6- Your fursonas BIO"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: §b/FursonaBio &a[Bio] &6- Your fursonas BIO"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
 
@@ -447,11 +450,11 @@ animal:
   - '$text$&b'
   - '$text$&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-&6-&5-'
   - $Script$%if%$PlayerDataFor%$player%PlayerAnimal%==NoData
-  - '$text$&b&9[&2&lJ&6&lT&9]: &7You currently do not identify as anything.'
+  - '$text$&b&9&f[&4&lFF&f]: &7You currently do not identify as anything.'
   - $Script$%else%
-  - '$text$&b&9[&2&lJ&6&lT&9]: &6You currently identify as a... &b$PlayerData%PlayerAnimal%'
+  - '$text$&b&9&f[&4&lFF&f]: &6You currently identify as a... &b$PlayerData%PlayerAnimal%'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cThis command seems to be disabled for now."
+  permission-error: "&9&f[&4&lFF&f]: &cThis command seems to be disabled for now."
   permission-required: false
   register: true
   
@@ -460,21 +463,21 @@ sniff:
   type: RUN_CONSOLE
   runcmd:
   - $Script$%if%$PlayerDataFor%$arg1%PlayerSmell%==NoData
-  - '$text$&9[&2&lJ&6&lT&9]: &a$arg1 &cdoes not smell like anything.'
+  - '$text$&9&f[&4&lFF&f]: &a$arg1 &cdoes not smell like anything.'
   - /execute as $player at @s run playsound gamez.beep.17 master $player ~ ~ ~ 5 0.8
   - /execute at @p[name=$arg1] run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.35
-  - /execute as @p[name=$arg1] at @s run tellraw @s {"text":"&9[&2&lJ&6&lT&9] &eYou were sniffed by &a$player&e, but you also do not smell like anything, set your smell with &b/Setsmell","color":"yellow"}
+  - /execute as @p[name=$arg1] at @s run tellraw @s {"text":"&9&f[&4&lFF&f] &eYou were sniffed by &a$player&e, but you also do not smell like anything, set your smell with &b/Setsmell","color":"yellow"}
 
   - $Script$%else%
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - /execute as @p[name=$arg1] at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.35
-  - /execute as @p[name=$arg1] at @s run tellraw @s {"text":"&9[&2&lJ&6&lT&9] &eYou were sniffed by &a$player","color":"yellow"}
-  - '$text$&9[&2&lJ&6&lT&9]: &a$arg1 &2smells like &e$PlayerDataFor%$arg1%PlayerSmell%'
+  - /execute as @p[name=$arg1] at @s run tellraw @s {"text":"&9&f[&4&lFF&f] &eYou were sniffed by &a$player","color":"yellow"}
+  - '$text$&9&f[&4&lFF&f]: &a$arg1 &2smells like &e$PlayerDataFor%$arg1%PlayerSmell%'
 
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/Sniff &a[Player] &6- Sniff a player to identify them"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cThis command seems to be disabled for now."
+  error-message: "&9&f[&4&lFF&f]: &b/Sniff &a[Player] &6- Sniff a player to identify them"
+  permission-error: "&9&f[&4&lFF&f]: &cThis command seems to be disabled for now."
   permission-required: false
   register: true
 
@@ -484,12 +487,12 @@ setanimal:
   type: RUN_CONSOLE
   runcmd:
   - $Script$%PlayerData%PlayerAnimal=$multiargs
-  - '$broadcasttext$&9[&2&lJ&6&lT&9]: &a$player &enow identifies as a &b$PlayerData%PlayerAnimal%'
+  - '$broadcasttext$&9&f[&4&lFF&f]: &a$player &enow identifies as a &b$PlayerData%PlayerAnimal%'
 
   cooldown: 30
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &cYou didn't type anything. D:"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cThis command is sort of outdated, try &b/fursona&c, also there is now &b/setsmell"
+  error-message: "&9&f[&4&lFF&f]: &cYou didn't type anything. D:"
+  permission-error: "&9&f[&4&lFF&f]: &cThis command is sort of outdated, try &b/fursona&c, also there is now &b/setsmell"
   permission-required: false
   register: true
   
@@ -498,40 +501,43 @@ setsmell:
   type: RUN_CONSOLE
   runcmd:
   - $Script$%PlayerData%PlayerSmell=$multiargs
-  - '$text$&9[&2&lJ&6&lT&9]: &eYou now smell like &b$PlayerData%PlayerSmell%'
+  - '$text$&9&f[&4&lFF&f]: &eYou now smell like &b$PlayerData%PlayerSmell%'
 
   cooldown: 1
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &cYou didn't type anything. D:"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &cYou didn't type anything. D:"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   
-tigerlock:
-  command: /tigerlock
-  type: RUN_CONSOLE
-  runcmd:
-  - '$broadcasttext$&9[&2&lJ&6&lT&9]: &a$player &6&lTiger&3&lLocked &etheir selfs.'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
+#/Tigerlock is a useless command that just displays UserName TigerLocked their selfs.  doesn't really do anything.
+#tigerlock:
+#  command: /tigerlock
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '$broadcasttext$&9&f[&4&lFF&f]: &a$player &6&lTiger&3&lLocked &etheir selfs.'
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
 
-fresner:
-  command: /fresner
-  type: RUN_CONSOLE
-  runcmd:
-  - '$broadcasttext$&9[&2&lJ&6&lT&9]: &3Do not drown inside of an air fresner.... &6-Joshtiger&b2018'
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: true
+#Useless command, just displays "Do not drown inside of an air fresner.... -Joshtiger2018"
+#fresner:
+#  command: /fresner
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '$broadcasttext$&9&f[&4&lFF&f]: &3Do not drown inside of an air fresner.... &6-Joshtiger&b2018'
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: true
 
 date:
   command: /date
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &eToday is $todaydate'
+  - '$text$&9&f[&4&lFF&f]: &eToday is $todaydate' #Display the date in chat with /date
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
 
 logout:
@@ -541,42 +547,44 @@ logout:
   - '$broadcasttext$&9[&cLogout&9]: &e$multiargs'
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &cInvalid command..."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &cInvalid command..."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   
-jtaddstaff:
-  command: /jtaddstaff
-  type: RUN_CONSOLE
-  runcmd:
-  - '/tag $arg1 add IsStaff'
-
-  required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &cInvalid command..."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: true
+#jtaddstaff, jtremovestaff and jta
+#replaced with LuckPerms and is redundant
+#jtaddstaff:
+#  command: /jtaddstaff
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '/tag $arg1 add IsStaff'
+#
+#  required_args: 1
+#  error-message: "&9&f[&4&lFF&f]: &cInvalid command..."
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: true
   
-jtremovestaff:
-  command: /jtremovestaff
-  type: RUN_CONSOLE
-  runcmd:
-  - '/tag $arg1 remove IsStaff'
-
-  required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &cInvalid command..."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: true
-  
-jta:
-  command: /jta
-  type: RUN_CONSOLE
-  runcmd:
-  - /tellraw @a[tag=IsStaff] {"text":"&9[&2&lJ&6&lT§b§lStaff&9] &a<$player&a> &b$multiargs","color":"aqua"}
-
-  required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/jta &e[Message]"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
+#jtremovestaff:
+#  command: /jtremovestaff
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '/tag $arg1 remove IsStaff'
+#
+#  required_args: 1
+#  error-message: "&9&f[&4&lFF&f]: &cInvalid command..."
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: true
+#  
+#jta:
+#  command: /jta
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /tellraw @a[tag=IsStaff] {"text":"&9[&2&lJ&6&lT§b§lStaff&9] &a<$player&a> &b$multiargs","color":"aqua"}
+#
+#  required_args: 1
+#  error-message: "&9&f[&4&lFF&f]: &b/jta &e[Message]"
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
 
 
 elmo:
@@ -586,7 +594,7 @@ elmo:
   - /sudo $player ff-customactions:elmo
   - /execute as $player at @s run playsound jt.sound.elmo master @a ~ ~ ~ 1 1
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
 
 casteffect:
@@ -597,7 +605,7 @@ casteffect:
 
   delaytimer: 1
   delaytimer_format: TICKS
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   permission-node: joshtiger.casteffect
   register: true
@@ -610,7 +618,7 @@ castsound:
 
   delaytimer: 1
   delaytimer_format: TICKS
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   permission-node: joshtiger.castsound
   register: true
@@ -623,7 +631,7 @@ castscript:
 
   delaytimer: 1
   delaytimer_format: TICKS
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
 
@@ -632,15 +640,15 @@ memes:
   type: RUN_CONSOLE
   runcmd:
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
-  - '$text$&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-'
+#  - '$text$&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-'
   - '$text$&dDisplaying memes and stuff.'
   - '$text$&b'
   - '$text$&b/Oof &6- Get oofed'
   - '$text$&b/Thanos &6- Snap your self out of exsistance.'
   - '$text$&b'
-  - '$text$&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-'
+#  - '$text$&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   
@@ -657,7 +665,7 @@ bogdan:
   - '$text$&b'
   - '$text$&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-&d-&e-'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
 
@@ -672,7 +680,7 @@ CMDblockbutcher:
   - /tellraw $player {"text":"&cIt was killing other player's pets and fish. o3o","color":"red"}
   - /tellraw $player {"text":"&c","color":"red"}
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   
 CMDblockbutcher2:
@@ -685,38 +693,39 @@ mr:
   command: /mr
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &aReloaded minecraft functions and scripts.'
+  - '$text$&9&f[&4&lFF&f]: &aReloaded minecraft functions and scripts.'
   - /minecraft:reload
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
 
 rn:
   command: /rn
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &cSorry, you do not have the permissions to reload &2&lJ&6&lT&bScripts&c.'
+  - '$text$&9&f[&4&lFF&f]: &cSorry, you do not have the permissions to reload &2&lJ&6&lT&bScripts&c.'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
 
 id:
   command: /id
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou are holding &e$iteminhand'
+  - '$text$&9&f[&4&lFF&f]: &aYou are holding &e$iteminhand'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
 
-jttextgenerate:
-  command: /jttextgenerate
-  type: RUN_CONSOLE
-  runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &cSorry, you do not have the permissions to use this command. o3o'
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: true
+#Useless command to display you don't have permissions to run the command.  Joke command, commented out.  
+#jttextgenerate:
+#  command: /jttextgenerate
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '$text$&9&f[&4&lFF&f]: &cSorry, you do not have the permissions to use this command. o3o'
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: true
 
 jttext:
   command: /jttext
@@ -727,7 +736,7 @@ jttext:
   - /execute as @a run title @s title {"text":""}
   - /execute as @a at @s run playsound minecraft:block.wood.break master @s ~ ~ ~ 5 1.4
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   
 blackscreen:
@@ -736,45 +745,46 @@ blackscreen:
   runcmd:
   - /effect give $multiargs minecraft:blindness 99999 10 true
   - /effect give $multiargs minecraft:night_vision 99999 10 true
-  - '$text$&9[&2&lJ&6&lT&9]: &8Blacking &cout the screens for &a$multiargs&c.' 
+  - '$text$&9&f[&4&lFF&f]: &8Blacking &cout the screens for &a$multiargs&c.' 
   - '$text$&6Do &b/heal &a[Player] &6to undo the status effect.' 
 
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   error-message: "&b/Blackscreen &a[Player] &6Blacks the players screen out."
   register: true
   required_args: 1
   
-jttextanimate:
-  command: /jttextanimate
-  type: RUN_CONSOLE
-  runcmd:
-  - '$text$&9'
-  - '$text$&aFramesKeys/OtherData &6are split by using &6"&f,&6" after them.'
-  - '$text$&9'
-  - '$text$&b/jttextanimate &aOuO&f,&aOu-&f,&aOuO&f &7{FrameDelayTime["&a0.5&7"],OnlyForPlayers["&ajoshtiger&f,&ajames&7"]}'
-  - '$text$&b'
-  - '$text$&6That would play a winking face animation at half a second'
-  - '$text$&6for only the players joshtiger and james.'
-  - '$text$&9'
-  - '$text$&7&l[Nodes]'
-  - '$text$&7FrameDelayTime["&aFrameNum&7"]&f, &7Repeat["&aAmount&7"]&f, &7Display["&aNBT/Entity/Objective&7"]'
-  - '$text$&7CastEffect["&aEffect&7"]&f, &7CastScript["&aScript&7"]&f, &7Execute["&aCMD&7"]'
-  - '$text$&7RainbowAnim["&aTrue&7/&cFalse&7"]&f, &7RainbowSpeed["&aSpeed&7"]&f, &7IF["&aOther&7"]'
-  - '$text$&7AND["&aOther&7"]&f, &7NOT["&aOther&7"]&f, &7OnlyForPlayers["&aPlayers&7"]'
-  - '$text$&7AnimationType["&aRainbow/Scroll/Scroll2/Scroll3/ActionBar&7"]'
-  - '$text$&7ScrollFrom["&aLeft/Right&7"]&f, &7ScrollSpeed["&aSpeed&7"]'
-  - '$text$&9'
-  - '$text$&9[&2&lJ&6&lT&9]: &cInvalid data for command or lack of permissions'
-  - '$text$&9'
-  - '$text$&bThe joshtiger Animator&7&o[v1.45]'
-  - '$text$&9'
-
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
-  register: true
+#Useless command, displays a winking face to joshtiger and James using OuO then Ou- then OuO.  Commented out due to uselessness.
+#jttextanimate:
+#  command: /jttextanimate
+#  type: RUN_CONSOLE
+# runcmd:
+#  - '$text$&9'
+#  - '$text$&aFramesKeys/OtherData &6are split by using &6"&f,&6" after them.'
+#  - '$text$&9'
+#  - '$text$&b/jttextanimate &aOuO&f,&aOu-&f,&aOuO&f &7{FrameDelayTime["&a0.5&7"],OnlyForPlayers["&ajoshtiger&f,&ajames&7"]}'
+#  - '$text$&b'
+#  - '$text$&6That would play a winking face animation at half a second'
+#  - '$text$&6for only the players joshtiger and james.'
+#  - '$text$&9'
+#  - '$text$&7&l[Nodes]'
+#  - '$text$&7FrameDelayTime["&aFrameNum&7"]&f, &7Repeat["&aAmount&7"]&f, &7Display["&aNBT/Entity/Objective&7"]'
+#  - '$text$&7CastEffect["&aEffect&7"]&f, &7CastScript["&aScript&7"]&f, &7Execute["&aCMD&7"]'
+#  - '$text$&7RainbowAnim["&aTrue&7/&cFalse&7"]&f, &7RainbowSpeed["&aSpeed&7"]&f, &7IF["&aOther&7"]'
+#  - '$text$&7AND["&aOther&7"]&f, &7NOT["&aOther&7"]&f, &7OnlyForPlayers["&aPlayers&7"]'
+#  - '$text$&7AnimationType["&aRainbow/Scroll/Scroll2/Scroll3/ActionBar&7"]'
+#  - '$text$&7ScrollFrom["&aLeft/Right&7"]&f, &7ScrollSpeed["&aSpeed&7"]'
+#  - '$text$&9'
+#  - '$text$&9&f[&4&lFF&f]: &cInvalid data for command or lack of permissions'
+#  - '$text$&9'
+#  - '$text$&bThe joshtiger Animator&7&o[v1.45]'
+#  - '$text$&9'
+#
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
+#  register: true
 
 jtsound:
   command: /jtsound
@@ -952,7 +962,7 @@ jtsound:
   - '$text$&b/Quiet &7- &6Stop sounds for your self. &5Shhhhh!'
   - '$text$&6'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   tab_completer:
@@ -988,21 +998,21 @@ saplings:
   type: RUN_CONSOLE
   runcmd:
   - $Script$%if%$arg1==True
-  - '$text$&9[&2&lJ&6&lT&9]: &2Saplings &awill automatically plant nearby.'
+  - '$text$&9&f[&4&lFF&f]: &2Saplings &awill automatically plant nearby.'
   - '$text$&7(Effective to only newly dropped saplings)'
   - '$text$&6'
   - /tag @a[name=$player,tag=DenySaplingGrowth] remove DenySaplingGrowth
   - '$text$&6'
   
   - $Script$%if%$arg1==False
-  - '$text$&9[&2&lJ&6&lT&9]: &2Saplings &cwill no longer automatically plant nearby.'
+  - '$text$&9&f[&4&lFF&f]: &2Saplings &cwill no longer automatically plant nearby.'
   - '$text$&6'
   - /tag @a[name=$player,tag=!DenySaplingGrowth] add DenySaplingGrowth
   
   - $Script$%else%
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - '$text$&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-'
-  - '$text$&9[&2&lJ&6&lT&9]: &6Sets &2Saplings &6to automatically plant nearby or not.'
+  - '$text$&9&f[&4&lFF&f]: &6Sets &2Saplings &6to automatically plant nearby or not.'
   - '$text$&7Range: 132 blocks'
   - '$text$&6'
   - '$text$&b/Saplings &aTrue&7(Default) &6or &cFalse'
@@ -1010,7 +1020,7 @@ saplings:
   - '$text$&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-'
 
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   tab_completer:
@@ -1022,42 +1032,42 @@ gluttony:
   type: RUN_CONSOLE
   runcmd:
   - $Script$%if%$arg1==100
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l100&a.'
-  - '$text$&9[&2&lJ&6&lT&9]: &a&lThings that you eat will instantly be melted down!'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l100&a.'
+  - '$text$&9&f[&4&lFF&f]: &a&lThings that you eat will instantly be melted down!'
   - /scoreboard players set $player Gluttony 100
   - $Script$%if%$arg1==10
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l10&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l10&a.'
   - /scoreboard players set $player Gluttony 10
   - $Script$%if%$arg1==9
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l9&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l9&a.'
   - /scoreboard players set $player Gluttony 9
   - $Script$%if%$arg1==8
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l8&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l8&a.'
   - /scoreboard players set $player Gluttony 8
   - $Script$%if%$arg1==7
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l7&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l7&a.'
   - /scoreboard players set $player Gluttony 7
   - $Script$%if%$arg1==6
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l6&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l6&a.'
   - /scoreboard players set $player Gluttony 6
   - $Script$%if%$arg1==5
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l5&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l5&a.'
   - /scoreboard players set $player Gluttony 5
   - $Script$%if%$arg1==4
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l4&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l4&a.'
   - /scoreboard players set $player Gluttony 4
   - $Script$%if%$arg1==3
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l3&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l3&a.'
   - /scoreboard players set $player Gluttony 3
   - $Script$%if%$arg1==2
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l2&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l2&a.'
   - /scoreboard players set $player Gluttony 2
   - $Script$%if%$arg1==1
-  - '$text$&9[&2&lJ&6&lT&9]: &aYou have set your &2&lGluttony &alevel to &b&l1&a.'
+  - '$text$&9&f[&4&lFF&f]: &aYou have set your &2&lGluttony &alevel to &b&l1&a.'
   - /scoreboard players set $player Gluttony 1
 
   - $Script$%if%$arg1==0
-  - '$text$&9[&2&lJ&6&lT&9]: &cYou are no longer &2&lGluttony'
+  - '$text$&9&f[&4&lFF&f]: &cYou are no longer &2&lGluttony'
   - /tag @a[name=$player,tag=Gluttony] remove Gluttony
   - /scoreboard players reset $player Gluttony
   
@@ -1065,13 +1075,13 @@ gluttony:
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
   - /scoreboard objectives add Gluttony dummy
   - '$text$&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-'
-  - '$text$&9[&2&lJ&6&lT&9]: &6Makes you a total Glutton!'
+  - '$text$&9&f[&4&lFF&f]: &6Makes you a total Glutton!'
   - '$text$&6'
   - '$text$&b/Gluttony &a0 &6- &a10'
   - '$text$&6'
   - '$text$&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-&2-&a-'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: false
   tab_completer:
@@ -1100,7 +1110,7 @@ jtsound2:
   - /execute as $player at @s run playsound $arg1 master @a ~ ~ ~ 1 1
 
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   
 colour:
@@ -1121,7 +1131,7 @@ colors:
   runcmd:
   - '$text$&9'
   - '$text$&3[Chat&Signs Only]'
-  - '$text$&9[&2&lJ&6&lT&9]: &11 &22 &33 &44 &55 &66 &77 &88 &99 &00 &aa &bb &cc &dd &ee &ff'
+  - '$text$&9&f[&4&lFF&f]: &11 &22 &33 &44 &55 &66 &77 &88 &99 &00 &aa &bb &cc &dd &ee &ff'
   - '$text$&9'
   - '$text$&3[Signs Only] &7(Unless Administrator)'
   - '$text$&f &el &6= &e&lTest'
@@ -1133,7 +1143,7 @@ colors:
   - '$text$&6So like &&5&65Test &6would come out as &5Test&6.'
   - '$text$&9'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   
@@ -1145,66 +1155,66 @@ record:
   - $Script$%if%$arg1==11
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.11 record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &011"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &011"}
 
   - $Script$%if%$arg1==13
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.13 record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &e13"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &e13"}
 
   - $Script$%if%$arg1==cat
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.cat record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &2Cat"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &2Cat"}
 
   - $Script$%if%$arg1==blocks
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.blocks record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &6Blocks"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &6Blocks"}
 
   - $Script$%if%$arg1==chirp
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.chirp record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &4C&ch&4i&cr&4p"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &4C&ch&4i&cr&4p"}
 
   - $Script$%if%$arg1==far
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.far record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &aFar"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &aFar"}
 
   - $Script$%if%$arg1==mall
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.mall record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &5Mall"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &5Mall"}
 
   - $Script$%if%$arg1==mellohi
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.mellohi record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &dM&fe&5l&fl&do&fh&5i"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &dM&fe&5l&fl&do&fh&5i"}
 
   - $Script$%if%$arg1==stal
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.stal record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &8Stal"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &8Stal"}
 
   - $Script$%if%$arg1==strad
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.strad record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &fStrad"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &fStrad"}
 
   - $Script$%if%$arg1==ward
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.ward record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &2Wa&ard"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &2Wa&ard"}
 
   - $Script$%if%$arg1==wait
   - /execute as $player at @s run stopsound @a[distance=0..64] record
   - /execute as $player at @s run playsound minecraft:music_disc.wait record @a[distance=0..30] ~ ~ ~ 500000 1
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &ePlayed music disc &9Wait"}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &ePlayed music disc &9Wait"}
 
   - $Script$%if%$arg1==stop
   - /execute as $player at @s run stopsound @a[distance=0..64] record
-  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9[&2&lJ&6&lT&9] &a$player &cStopped &ethe record music."}
+  - /execute as $player at @s run tellraw @a[distance=0..64] {"text":"&9&f[&4&lFF&f] &a$player &cStopped &ethe record music."}
 
   
   - $Script$%else%
@@ -1223,7 +1233,7 @@ record:
   - '$text$&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-'
 
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   tab_completer:
@@ -1246,7 +1256,7 @@ Quiet:
   type: RUN_CONSOLE
   runcmd:
   - /stopsound $player
-  - '$text$&9[&2&lJ&6&lT&9]: &5Sounds have been stopped for you only.'
+  - '$text$&9&f[&4&lFF&f]: &5Sounds have been stopped for you only.'
 
   permission-error: "&cError: Only &6joshtiger &ccan use this command!"
   permission-required: false
@@ -1258,82 +1268,82 @@ tagcolor:
   type: RUN_CONSOLE
   runcmd:
   - $Script$%if%$arg1==A
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &aGreen'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &aGreen'
   - /team join ColorA $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
 
   - $Script$%if%$arg1==B
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &bAqua'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &bAqua'
   - /team join ColorB $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==C
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &cRed'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &cRed'
   - /team join ColorC $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==D
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &dLight Purple'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &dLight Purple'
   - /team join ColorD $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==E
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &eYellow'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &eYellow'
   - /team join ColorE $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==F
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &fWhite'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &fWhite'
   - /team join ColorF $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==1
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &1Dark Blue'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &1Dark Blue'
   - /team join Color1 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==2
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &2Dark Green'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &2Dark Green'
   - /team join Color2 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==3
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &3Dark Aqua'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &3Dark Aqua'
   - /team join Color3 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==4
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &4Dark Red'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &4Dark Red'
   - /team join Color4 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==5
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &5Dark Purple'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &5Dark Purple'
   - /team join Color5 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==6
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &6Gold'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &6Gold'
   - /team join Color6 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==7
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &7Grey'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &7Grey'
   - /team join Color7 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==8
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &8Dark Grey'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &8Dark Grey'
   - /team join Color8 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==9
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &9Blue'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &9Blue'
   - /team join Color9 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
   - $Script$%if%$arg1==0
-  - '$text$&9[&2&lJ&6&lT&9]: &aTagcolor changed to &0Black'
+  - '$text$&9&f[&4&lFF&f]: &aTagcolor changed to &0Black'
   - /team join Color0 $player
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
   
@@ -1387,19 +1397,20 @@ tagcolor:
   - /team modify Color8 seeFriendlyInvisibles false
   - /team modify Color9 seeFriendlyInvisibles false
   - /team modify Color0 seeFriendlyInvisibles false
-  - '$text$&9[&2&lJ&6&lT&9]: &aTeams for Tagcolors were set up! OwO'
+  - '$text$&9&f[&4&lFF&f]: &aTeams for Tagcolors were set up! OwO'
   - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
 
   - $Script$%else%
   - /execute as $player at @s run playsound gamez.beep.17 master $player ~ ~ ~ 5 0.8
-  - '$text$&9[&2&lJ&6&lT&9]: &cInvalid color ID'
-  - '$text$&9[&2&lJ&6&lT&9]: &cExpected (&aA&c, &bB&c, &cC&c, &dD&c, &eE&c, &fF&c, &11&c, &22&c, &33&c, &44&c, &55&c, &66&c, &77&c, &88&c, &99&c, &00&c, &b&oSetup&c)'
+  - '$text$&9&f[&4&lFF&f]: &cInvalid color ID'
+  - '$text$&9&f[&4&lFF&f]: &cExpected (&aA&c, &bB&c, &cC&c, &dD&c, &eE&c, &fF&c, &11&c, &22&c, &33&c, &44&c, &55&c, &66&c, &77&c, &88&c, &99&c, &00&c, &b&oSetup&c)'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   permission-node: joshtiger.tagcolor
   register: true
 
+#Displays a text /actionbar texthere that's a message bove the hotbar/toolbar. Text displays to all users globally
 actionbar:
   command: /actionbar
   type: RUN_CONSOLE
@@ -1408,10 +1419,11 @@ actionbar:
   - /execute as @a run playsound minecraft:block.note.bell master @p ~ ~ ~ 0 0.65
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/Actionbar &a<Message>"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/Actionbar &a<Message>"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
-  
+ 
+#Displays big text across the screen, is displayed globally using /titlebar texthere.
 titlebar:
   command: /titlebar
   type: RUN_CONSOLE
@@ -1421,8 +1433,8 @@ titlebar:
   - /execute as @a run playsound minecraft:block.note.bell master @p ~ ~ ~ 5 0.65
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/Titlebar &a<Message>"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/Titlebar &a<Message>"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   
 subtitlebar:
@@ -1432,21 +1444,22 @@ subtitlebar:
   - /execute as @a run title @s subtitle {"text":"$multiargs"}
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/Subtitlebar &a<Message> &c(Will add onto /titlebar)"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/Subtitlebar &a<Message> &c(Will add onto /titlebar)"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   
 jcb:
   command: /jcb
   type: RUN_CONSOLE
   runcmd:
-  - '$broadcasttext$&9[&2&lJ&6&lT&9]: $multiargs'
+  - '$broadcasttext$&9&f[&4&lFF&f]: $multiargs'
 
   required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/jcb &a<Message>"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &b/jcb &a<Message>"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
 
+#Pass1 puts a player in /gamemode creative (GM3) displaying various particles
 pass1:
   command: /pass1
   type: RUN_CONSOLE
@@ -1501,19 +1514,19 @@ pass1:
 
   delaytimer: 1
   delaytimer_format: TICKS
-  error-message: "&9[&2&lJ&6&lT&9]: &cInvalid command..."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&9&f[&4&lFF&f]: &cInvalid command..."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
 
-  
-partical:
-  command: /partical
-  type: RUN_CONSOLE
-  runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &c&lTHAT IS NOT A WORD!'
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
+#Useless command that displays "THAT IS NOT A WORD!"  in chat.
+#partical:
+#  command: /partical
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '$text$&9&f[&4&lFF&f]: &c&lTHAT IS NOT A WORD!'
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
   
 
 RankSet:
@@ -1526,7 +1539,7 @@ RankSet:
 
   required_args: 2
   error-message: "&b/RankSet &a[Player] &e<Rank>"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
   
@@ -1540,127 +1553,134 @@ RankAdd:
 
   required_args: 2
   error-message: "&b/RankAdd &a[Player] &e<Rank>"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: true
-  register: true
-  
-ShootingStars:
-  command: /ShootingStars
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute $arg1 ~ ~ ~ scoreboard players set $arg1 ShootingStars 340
-  - /execute $arg1 ~ ~ ~ execute $player ~ ~ ~ playsound gamez.beep.11 master $player ~ ~ ~ 5 1.2
-  - /execute $arg1 ~ ~ ~ tellraw $player {"text":"&9[&2&lJ&6&lT&9] &a$arg1 &ehas been set off like a star!"}
-
-  required_args: 1
-  error-message: "&b/ShootingStars &a[Player]"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: true
-  
-editme:
-  command: /EditMe
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute if entity @a[tag=JTLogger] run tellraw @a[tag=JTLogger] {"text":"&a[&2J&6T&a] &a$player &eused &b/EditMe $multiargs&e."}
-  - '$text$&b '
-  - '$text$&6Pfff, you really thought &b/EditMe &6was a real command?'
-  - '$text$&6Well you are &a&lRight! '
-  - '$text$&6It displays this message to you. x3'
-  - '$text$&6 '
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
-  
-q:
-  command: /q
-  type: RUN_CONSOLE
-  runcmd:
-  - '$text$&cQuests are currently disabled due to a creative mode exploit. :('
-  - '$text$&6When will they be fixed, uhhhhh... not too sure, i am just a tiger. ^-^;'
-
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
-
-
-
-
-cookie:
-  command: /cookie
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute as $player at @s run function joshtiger:fun/cookie
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cNuuu, only for cookie tigerrrs OwO"
-  permission-required: true
-  register: true
-  
-cookie2:
-  command: /cookie2
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,0.0],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,0.0],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.0,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.0,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,-0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,-0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,-0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,-0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-
-  required_args: 1
-  error-message: "&9[&2&lJ&6&lT&9]: &b/cookie2 &a[text]"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cNuuu, only for cookie tigerrrs OwO"
-  permission-required: true
-
-
-jtcookie:
-  command: /jtcookie
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute as $player at @s run function joshtiger:fun/jtcookie
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: true
-  register: true
-  
-temp:
-  command: /temp
-  type: RUN_CONSOLE
-  runcmd:
-  - '$broadcasttext$&f.'
-  - '$broadcasttext$&fprint("Hello world")'
-  - '$broadcasttext$&f.'
-  - '$broadcasttext$&f.'
-  - '$broadcasttext$&f.'
-  - '$broadcasttext$&f.'
-  - '$broadcasttext$&f.'
-  - '$broadcasttext$&f.'
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
 
-jtcookie2:
-  command: /jtcookie2
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute as $player at @s run function joshtiger:fun/jtcookie
+#Broken command.  
+#ShootingStars:
+#  command: /ShootingStars
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute $arg1 ~ ~ ~ scoreboard players set $arg1 ShootingStars 340
+#  - /execute $arg1 ~ ~ ~ execute $player ~ ~ ~ playsound gamez.beep.11 master $player ~ ~ ~ 5 1.2
+#  - /execute $arg1 ~ ~ ~ tellraw $player {"text":"&9&f[&4&lFF&f] &a$arg1 &ehas been set off like a star!"}
+#
+#  required_args: 1
+#  error-message: "&b/ShootingStars &a[Player]"
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: true
 
-  cost: 1
-  success-message: "&9[&2&lJ&6&lT&9]: &aPaid &7%s $"
-  error-message: "&9[&2&lJ&6&lT&9]: You need %s $ for perform this command!"
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: true
-  register: true
+#Just displays useless text to a user trying to use /editme, does nothing.  
+#editme:
+#  command: /EditMe
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute if entity @a[tag=JTLogger] run tellraw @a[tag=JTLogger] {"text":"&a[&2J&6T&a] &a$player &eused &b/EditMe $multiargs&e."}
+#  - '$text$&b '
+#  - '$text$&6Pfff, you really thought &b/EditMe &6was a real command?'
+#  - '$text$&6Well you are &a&lRight! '
+#  - '$text$&6It displays this message to you. x3'
+#  - '$text$&6 '
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
+
+#Non-working command, disabled. Users could go into the creative world and accomplish quests in rapid succession.
+#Since it's disabled, this is commented out to just remove it from use for end users  
+#q:
+#  command: /q
+#  type: RUN_CONSOLE
+#  runcmd:
+# - '$text$&cQuests are currently disabled due to a creative mode exploit. :('
+#  - '$text$&6When will they be fixed, uhhhhh... not too sure, i am just a tiger. ^-^;'
+#
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
+
+
+
+#Command set for only Joshtiger.  Burst of cookies with the title "Cookie OuO"
+#cookie:
+#  command: /cookie
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute as $player at @s run function joshtiger:fun/cookie
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cNuuu, only for cookie tigerrrs OwO"
+#  permission-required: true
+#  register: true
+ 
+ #Command set for only Joshtiger again. This is the burst of cookies that pops out of him like /cookie but with custom text over the cookies
+#cookie2:
+#  command: /cookie2
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,0.0],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,0.0],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.0,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.0,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,-0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,-0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,-0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,-0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+#
+#  required_args: 1
+#  error-message: "&9&f[&4&lFF&f]: &b/cookie2 &a[text]"
+#  permission-error: "&9&f[&4&lFF&f]: &cNuuu, only for cookie tigerrrs OwO"
+#  permission-required: true
+
+#Broken.
+#jtcookie:
+#  command: /jtcookie
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute as $player at @s run function joshtiger:fun/jtcookie
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: true
+#  register: true
+
+#Basic Hellow World junk  
+#temp:
+#  command: /temp
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '$broadcasttext$&f.'
+#  - '$broadcasttext$&fprint("Hello world")'
+#  - '$broadcasttext$&f.'
+#  - '$broadcasttext$&f.'
+#  - '$broadcasttext$&f.'
+#  - '$broadcasttext$&f.'
+#  - '$broadcasttext$&f.'
+#  - '$broadcasttext$&f.'
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: true
+#  register: true
+
+#Charges a user $1 for using the command and provides garbage.
+#jtcookie2:
+#  command: /jtcookie2
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute as $player at @s run function joshtiger:fun/jtcookie
+#
+#  cost: 1
+#  success-message: "&9&f[&4&lFF&f]: &aPaid &7%s $"
+#  error-message: "&9&f[&4&lFF&f]: You need %s $ for perform this command!"
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+# permission-required: true
+#  register: true
 
 
 TeamModify:
@@ -1670,94 +1690,104 @@ TeamModify:
   - /minecraft:team modify $multiargs
 
   permission-required: true
-  permission-error: "&9[&2&lJ&6&lT&9]: &cNuuu go away, no permissions! D:"
-  error-message: "&9[&2&lJ&6&lT&9]: &b/TeamModify &a[Data]"
+  permission-error: "&9&f[&4&lFF&f]: &cNuuu go away, no permissions! D:"
+  error-message: "&9&f[&4&lFF&f]: &b/TeamModify &a[Data]"
   required_args: 1
   register: false
-  
-jtsayold:
-  command: /jtsayold
-  type: RUN_CONSOLE
-  runcmd:
-  - '$broadcasttext$&c❤ &f<&9[&6Co-Owner&9] &2josh&6tiger&f> &f$multiargs'
 
-  permission-required: true
-  permission-error: "&9[&2&lJ&6&lT&9]: &cInvalid permission stuffys. o3o"
-  
-jtsay:
-  command: /jtsay
-  type: RUN_CONSOLE
-  runcmd:
-  - '$broadcasttext$&c❤ &f<&9[&aT&bi&cg&ee&5r&9] &2josh&6tiger&f> &f$multiargs'
+#Command to display text as JoshTiger similar to tellraw.
+#Example: /jtsayold test will read [Co-Owner] joshtiger> test
+#jtsayold:
+#  command: /jtsayold
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '$broadcasttext$&c❤ &f<&9[&6Co-Owner&9] &2josh&6tiger&f> &f$multiargs'
+#
+#  permission-required: true
+#  permission-error: "&9&f[&4&lFF&f]: &cInvalid permission stuffys. o3o"
 
-  permission-required: true
-  permission-error: "&9[&2&lJ&6&lT&9]: &cInvalid permission stuffys. o3o"
-  
-jtsaytonear:
-  command: /jtsaytonear
-  type: RUN_CONSOLE
-  runcmd:
-  - /tellraw @a[r=32] {"text":"§c❤ §f<&9[&aT&bi&cg&ee&5r&9] §2josh§6tiger§f> §f$multiargs"}
+#Command to display text as JoshTiger similar to tellraw.
+#Example: /jtsay test will read [Tiger] joshtiger> test  
+#jtsay:
+#  command: /jtsay
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - '$broadcasttext$&c❤ &f<&9[&aT&bi&cg&ee&5r&9] &2josh&6tiger&f> &f$multiargs'
+#
+#  permission-required: true
+#  permission-error: "&9&f[&4&lFF&f]: &cInvalid permission stuffys. o3o"
 
-  permission-required: true
-  permission-error: "&9[&2&lJ&6&lT&9]: &cInvalid permission stuffys. o3o"
-  
-jtsaystaff:
-  command: /jtsaystaff
-  type: RUN_CONSOLE
-  runcmd:
-  - /tellraw @a[tag=IsStaff] {"text":"§b[§9[&aT&bi&cg&ee&6r&9] §2§ljosh§6§ltiger§b] §b$multiargs","color":"aqua"}
+#Command to display text as JoshTiger similar to tellraw but within 32 blocks of the command user
+#jtsaytonear:
+#  command: /jtsaytonear
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /tellraw @a[r=32] {"text":"§c❤ §f<&9[&aT&bi&cg&ee&5r&9] §2josh§6tiger§f> §f$multiargs"}
+#
+#  permission-required: true
+#  permission-error: "&9&f[&4&lFF&f]: &cInvalid permission stuffys. o3o"
 
-  permission-required: true
-  permission-error: "&9[&2&lJ&6&lT&9]: &cInvalid permission stuffys. o3o"
+#Uses staff chat to say text as Joshtiger.
+#jtsaystaff:
+#  command: /jtsaystaff
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /tellraw @a[tag=IsStaff] {"text":"§b[§9[&aT&bi&cg&ee&6r&9] §2§ljosh§6§ltiger§b] §b$multiargs","color":"aqua"}
+#
+#  permission-required: true
+#  permission-error: "&9&f[&4&lFF&f]: &cInvalid permission stuffys. o3o"
 
-joshtiger:
-  command: /joshtiger
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute as $player at @s run playsound gamez.beep.17 master $player ~ ~ ~ 5 0.8
-  - '$text$&cOnly joshtiger can use this command. o3o'
+#Garbage command that says only joshtiger can use the command
+#joshtiger:
+#  command: /joshtiger
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute as $player at @s run playsound gamez.beep.17 master $player ~ ~ ~ 5 0.8
+#  - '$text$&cOnly joshtiger can use this command. o3o'
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
+#  register: true
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
-  register: true
-  
-josh:
-  command: /josh
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute as $player at @s run playsound gamez.beep.17 master $player ~ ~ ~ 5 0.8
-  - '$text$&6joshtiger &bis the god of all &6cookies&b! OuO'
+#Garbage Command. just spits out "joshtiger is the god of all cookies! OuO"  
+#josh:
+#  command: /josh
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute as $player at @s run playsound gamez.beep.17 master $player ~ ~ ~ 5 0.8
+#  - '$text$&6joshtiger &bis the god of all &6cookies&b! OuO'
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
+#  register: true
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
-  register: true
-
-wah:
-  command: /wah
-  type: RUN_CONSOLE
-  runcmd:
-  - /execute as $player at @s run playsound minecraft:jt.sound.traps.wah master @a ~ ~ ~ 1 1
-  - '&9[&2&lJ&6&lT&9]: $text$&eWah!'
-
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
-  permission-required: false
-  register: true
+#Plays the Waluigi Waaaah sound.
+#wah:
+#  command: /wah
+#  type: RUN_CONSOLE
+#  runcmd:
+#  - /execute as $player at @s run playsound minecraft:jt.sound.traps.wah master @a ~ ~ ~ 1 1
+#  - '&9&f[&4&lFF&f]: $text$&eWah!'
+#
+#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+#  permission-required: false
+#  register: true
 
 oof:
   command: /oof
   type: RUN_CONSOLE
   runcmd:
-  - '$broadcasttext$&9[&2&lJ&6&lT&9]: &a$getdisplayname &cwas oofed!'
+  - '$broadcasttext$&9&f[&4&lFF&f]: &a$getdisplayname &cwas oofed!'
   - /execute as $player at @s run gamerule showDeathMessages false
   - /execute as $player at @s run playsound jt.sound.oof master @a ~ ~ ~ 2 1
   - /minecraft:kill $player
   - /execute as $player at @s run gamerule showDeathMessages true
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   cooldown: 30
+
   
 thanos:
   command: /thanos
@@ -1765,7 +1795,7 @@ thanos:
   runcmd:
   - /execute as $player at @s run function joshtiger:castdeath/thanossnap
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   cooldown: 30
@@ -1777,14 +1807,15 @@ snap:
   - /execute as $arg1 at @s run function joshtiger:castdeath/thanossnap
 
   required_args: 1
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have thanos's permission to snap others, you can snap your self using &b/thanos &cthough. x3"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have thanos's permission to snap others, you can snap your self using &b/thanos &cthough. x3"
   permission-required: true
   permission-node: joshtiger.snap
-  error-message: "&9[&2&lJ&6&lT&9]: &b/Snap &a[Player] &e- Thanos snaps a player."
+  error-message: "&9&f[&4&lFF&f]: &b/Snap &a[Player] &e- Thanos snaps a player."
   register: true
 
+#was jtver, changed to ffver. Version information and recent changes report displayed to user.
 jtver:
-  command: /jtver
+  command: /ffver
   type: RUN_CONSOLE
   runcmd:
   - $Script$%if%$arg1==0
@@ -1848,9 +1879,9 @@ jtver:
 
   - $Script$%if%$arg1==error
   - /execute as $player at @s run playsound gamez.beep.14 master @s ~ ~ ~ 5 1
-  - '$text$&9[&2&lJ&6&lT&9]: &cI could not find that version... OnO'
+  - '$text$&9&f[&4&lFF&f]: &cI could not find that version... OnO'
   - '$text$&9'
-  - '$text$&9[&2&lJ&6&lT&9]: &b/JTVer &a[UpdateNumber]'
+  - '$text$&9&f[&4&lFF&f]: &b/JTVer &a[UpdateNumber]'
   - '$text$&7(With out the # in it, so like &b/JTVer 1&7. ouo)'
   - '$text$&9'
 
@@ -1865,7 +1896,7 @@ jtver:
   - '$text$&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-'
 
   
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   tab_completer:
@@ -1933,11 +1964,11 @@ playmusic:
   - $delay$
   - $delay$
   - $delay$
-  - '$delay$$text$&9[&2&lJ&6&lT&9] &cMusic Over'
+  - '$delay$$text$&9&f[&4&lFF&f] &cMusic Over'
   
   - $Script$%if%$arg1==1
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
-  - '$text$&9[&2&lJ&6&lT&9] &aPlaying &7Unknown 1'
+  - '$text$&9&f[&4&lFF&f] &aPlaying &7Unknown 1'
   - $delay$/execute as $player at @s run playsound minecraft:block.note_block.basedrum master @a ~ ~ ~ 5 0.6
   - $delay$/execute as $player at @s run playsound minecraft:block.note_block.basedrum master @a ~ ~ ~ 5 0.6
   - $delay$/execute as $player at @s run playsound minecraft:block.note_block.snare master @a ~ ~ ~ 5 0.6
@@ -1960,7 +1991,7 @@ playmusic:
   - $delay$/execute as $player at @s run playsound minecraft:block.note_block.basedrum master @a ~ ~ ~ 5 0.6
   - $delay$/execute as $player at @s run playsound minecraft:block.note_block.basedrum master @a ~ ~ ~ 5 0.6
   - $delay$/execute as $player at @s run playsound minecraft:block.note_block.snare master @a ~ ~ ~ 5 0.6
-  - '$delay$$text$&9[&2&lJ&6&lT&9] &cMusic Over'
+  - '$delay$$text$&9&f[&4&lFF&f] &cMusic Over'
   
   - $Script$%if%$arg1==2
   - /execute as $player at @s run playsound minecraft:block.note_block.harp master @a ~ ~ ~ 5 1.0
@@ -1977,7 +2008,7 @@ playmusic:
   
   - $Script$%if%$arg1==3
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
-  - '$text$&9[&2&lJ&6&lT&9] &aPlaying &7Unknown 1'
+  - '$text$&9&f[&4&lFF&f] &aPlaying &7Unknown 1'
   - $delay$/execute as $player at @s run playsound jt.midi.piano1-2 master @a ~ ~ ~ 5 1
   - $delay$
   - $delay$
@@ -2007,7 +2038,7 @@ playmusic:
   - $delay$/execute as $player at @s run playsound jt.midi.strings1-1 master @a ~ ~ ~ 5 0.8
   - $delay$
   - $delay$
-  - '$text$&9[&2&lJ&6&lT&9] &cMusic Over'
+  - '$text$&9&f[&4&lFF&f] &cMusic Over'
 
   - $Script$%else%
   - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1.5
@@ -2016,7 +2047,7 @@ playmusic:
   - '$text$&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-&a-&6-'
 
   
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
   delaytimer: 2
@@ -2112,7 +2143,7 @@ fakedeath:
   
   delaytimer: 25
   delaytimer_format: TICKS
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: true
   register: true
   tab_completer:
@@ -2142,7 +2173,7 @@ minecraftme2:
   - '$text$&c&oYou must be trusted to use this command.'
   - '$text$&b'
   - /minecraft:kick $player §cYou §chave §cbeen §cdisconnected.
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
 
 cmd:
@@ -2228,7 +2259,7 @@ jtcmdlist:
   - '$text$&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-&0-&6-'
 
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   
@@ -2240,9 +2271,9 @@ selfkick:
   - /minecraft:kick $player $multiargs
   
   required_args: 1
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
-  error-message: "&9[&2&lJ&6&lT&9]: &b/selfkick &a[Message] &e- Kicks you from the server with the message."
+  error-message: "&9&f[&4&lFF&f]: &b/selfkick &a[Message] &e- Kicks you from the server with the message."
   register: true
   
 magiccmd:
