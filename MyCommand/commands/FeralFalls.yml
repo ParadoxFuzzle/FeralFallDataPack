@@ -22,8 +22,8 @@ Warpa:
   delaytimer: 1
   delaytimer_format: TICKS
   cooldown: 10
-  error-message: "&9[&2&lJ&6&lT&9]: &cInvalid world, can only be used in Survival and End world."
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  error-message: "&f[&4&lFeralFalls&f]: &cInvalid world, can only be used in Survival and End world."
+  permission-error: "f[&4&lFeralFalls&f]: &cYou do not have permissions to use this command."
   permission-required: false
   register: true
   allowed_worlds:
