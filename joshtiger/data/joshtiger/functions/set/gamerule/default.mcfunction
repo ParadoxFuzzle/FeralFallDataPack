@@ -2,7 +2,7 @@
 #                                                             #
 #                      Script created by                      #
 #                                                             #
-#                          joshtiger                          #
+#                          Joe Mama                          #
 #                                                             #
 ###############################################################
 gamerule announceAdvancements true

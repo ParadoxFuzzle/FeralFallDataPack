@@ -2,7 +2,7 @@
 #                                                             #
 #                      Script created by                      #
 #                                                             #
-#                          joshtiger                          #
+#                          Joe Mama                          #
 #                                                             #
 ###############################################################
 execute positioned ~-5 ~ ~ anchored eyes run particle minecraft:end_rod ^ ^ ^12 0 0 2.2 0 1 force @a

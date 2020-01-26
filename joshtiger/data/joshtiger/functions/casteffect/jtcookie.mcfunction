@@ -2,7 +2,7 @@
 #                                                             #
 #                      Script created by                      #
 #                                                             #
-#                          joshtiger                          #
+#                          Joe Mama                          #
 #                                                             #
 ###############################################################
 execute as @s[name=joshtiger] at @s run summon item ~ ~1.5 ~ {CustomName:"§6Cookie! OuO",CustomNameVisible:1,NoGravity:1b,Motion:[0.0,0.0,-0.1],Item:{id:cookie,Count:1b},Age:5900,PickupDelay:32767}

@@ -2,7 +2,7 @@
 #                                                             #
 #                      Script created by                      #
 #                                                             #
-#                          joshtiger                          #
+#                          Joe Mama                          #
 #                                                             #
 ###############################################################
 execute as @a[tag=RandomExecute] if entity @s[tag=JTDebug] run tellraw @s {"text":"§9[§2§lJ§6§lT§9]: §eExecuteing §eMessage"}

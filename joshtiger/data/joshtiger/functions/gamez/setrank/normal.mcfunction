@@ -2,7 +2,7 @@
 #                                                             #
 #                      Script created by                      #
 #                                                             #
-#                          joshtiger                          #
+#                          Joe Mama                          #
 #                                                             #
 ###############################################################
 execute as @s[tag=GamezAdmin] at @s run playsound gamez.beep.22 master @s ~ ~ ~ 5 0

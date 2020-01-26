@@ -2,7 +2,7 @@
 #                                                             #
 #                      Script created by                      #
 #                                                             #
-#                          joshtiger                          #
+#                          Joe Mama                          #
 #                                                             #
 ###############################################################
 execute as @s at @s run particle minecraft:campfire_signal_smoke ~ ~32 ~ 1.2 0.2 1.2 0.01 7 force @a

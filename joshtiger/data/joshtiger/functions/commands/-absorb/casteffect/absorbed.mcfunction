@@ -2,7 +2,7 @@
 #                                                             #
 #                      Script created by                      #
 #                                                             #
-#                          joshtiger                          #
+#                          Joe Mama                          #
 #                                                             #
 ###############################################################
 particle minecraft:block slime_block ~ ~1 ~ 0.5 0.5 0.5 1 32 force @a
