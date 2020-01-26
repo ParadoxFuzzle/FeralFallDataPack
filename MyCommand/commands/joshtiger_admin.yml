@@ -3,14 +3,14 @@ fakedeathnote:
   type: RUN_CONSOLE
   runcmd:
 
-  - /execute as $player at @s run tellraw @a ["",{"selector":"@s"},{"text":" $multiargs"}]
-  - /execute as $player at @s unless entity @s[gamemode=spectator] run playsound minecraft:entity.player.hurt player @a
-  - gamemode 3 $player
+  - /execute as $player at @s run tellraw @a ["",{"selector":"@s"},{"text":" $multiargs"}] #displays the death message in chat, plays a death sound, then puts the player in spectator mode.
+  - /execute as $player at @s unless entity @s[gamemode=spectator] run playsound minecraft:entity.player.hurt player @a 
+  - gamemode 3 $player 
 
   
   delaytimer: 25
   delaytimer_format: TICKS
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&f[&4&lFF&f]: &cThis command is for staff use only."
   permission-required: true
   permission-node: joshtiger.fakedeathnote
   register: true
@@ -19,12 +19,11 @@ hide:
   command: /hide
   type: RUN_CONSOLE
   runcmd:
-  - /tellraw @a[tag=JTCMDLOG] {"text":"&e[&2§lJ&6§lT&e] &a$player &eused &b/Hide&e."}
+  - /tellraw @a[tag=JTCMDLOG] {"text":"&f[&4§lJT&f] $player used /Hide."} #gives the user invisibility, then some feedback in chat.
   - /execute as $player at @s run effect give @s minecraft:invisibility 99999 90 true
-  - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1
-  - '$text$&9[&2&lJ&6&lT&9]: &bYou have been given full invisibility effect.'
+  - '$text$&f[&4&lFF&f]: &fYou are now invisible. This may or may not hide your armor.'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cSorrryyyy."
+  permission-error: "&f[&4&lFF&f]: &cThis command is for staff use only."
   permission-required: true
   permission-node: joshtiger.hide
   register: true
@@ -33,13 +32,12 @@ bright:
   command: /bright
   type: RUN_CONSOLE
   runcmd:
-  - /tellraw @a[tag=JTCMDLOG] {"text":"&e[&2§lJ&6§lT&e] &a$player &eused &b/Bright&e."}
-  - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1
+  - /tellraw @a[tag=JTCMDLOG] {"text":"&f[&4&lFF&f] $player used /Bright."} #ensures the player has night vision, then gives feedback in chat.
   - /effect clear $player minecraft:night_vision
   - /effect give $player minecraft:night_vision 999999 0 true
-  - '$text$&9[&2&lJ&6&lT&9]: &bLet there be light ouo'
+  - '$text$&f[&4&lFF&f]: &fEnjoy the night vision, &player'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cHeyyyy, this command is too bright for you! O.O &7(Invalid Permissions)"
+  permission-error: "&f[&4&lFF&f]: &cThis command is meant for staff use only."
   permission-required: true
   permission-node: joshtiger.bright
   register: true
@@ -48,17 +46,16 @@ whoaccepted:
   command: /whoaccepted
   type: RUN_CONSOLE
   runcmd:
-  - /tellraw @a[tag=JTCMDLOG] {"text":"&e[&2§lJ&6§lT&e] &a$player &eused &b/WhoAccepted&e."}
-  - '$text$&c '
-  - '$text$&c[&2&lJ&6&lT&c]: &bListing players rules status'
-  - /tellraw @a[tag=IsStaff,name=$player] {"text":"&a[Accepted the rules]"}
+  - /tellraw @a[tag=JTCMDLOG] {"text":"&f[&4&lFF&f] &f$player used /WhoAccepted."} #I honestly have no fucking clue, dude. make Panada do this
+  - '$text$&f '
+  - '$text$&f[&4&lFF&f]: &fListing players' rules status'
+  - /tellraw @a[tag=IsStaff,name=$player] {"text":"&f[Accepted the rules]"}
   - /execute as @a[tag=RulesAccepted] at @s run tellraw @a[tag=IsStaff,name=$player] [{"selector":"@s","color":"dark_green"}]
   - /tellraw @a[tag=IsStaff,name=$player] {"text":" "}
-  - /tellraw @a[tag=IsStaff,name=$player] {"text":"&c[Did not accept the rules yet]"}
+  - /tellraw @a[tag=IsStaff,name=$player] {"text":"&f[Did not accept the rules yet]"}
   - /execute as @a[tag=!RulesAccepted] at @s run tellraw @a[tag=IsStaff,name=$player] [{"selector":"@s","color":"dark_red"}]
-  - '$text$&c '
-  - /execute as $player at @s run playsound gamez.beep.11 master $player ~ ~ ~ 5 1
-  permission-error: "&9[&2&lJ&6&lT&9]: &cHeyyyy, your no admin, go eat a cookie. OuO &7(Invalid Permissions)"
+  - '$text$&f '
+  permission-error: "&f[&4&lFF&f]: &cThis command is meant for staff use only."
   permission-required: true
   permission-node: joshtiger.whoaccepted
   register: true
@@ -67,13 +64,12 @@ Nametag:
   command: /Nametag
   type: RUN_CONSOLE
   runcmd:
-  - /execute as $player at @s run playsound minecraft:entity.evocation_illager.cast_spell master @a ~ ~ ~ 1 1.4
-  - /minecraft:give $player minecraft:name_tag{display:{Name:"{\"text\":\"$multiargs\"}",Lore:["","&7Created with &b/NameTag","&7Spawned by &a$player","","&7-Status while spawning-","&4Health &e$health","&6Food &e$food","&aLevel &e$level","&2Biome &e$biome","","&6Spawned on $todaydate",""]}} 1
+  - /minecraft:give $player minecraft:name_tag{display:{Name:"{\"text\":\"$multiargs\"}",Lore:["","&fCreated with /NameTag","&fSpawned by $player","","&f-Status while spawning-","&fHealth $health","&fFood $food","&fLevel $level","&fBiome $biome","","&fSpawned on $todaydate",""]}} 1 #honestly, I don't know this one either.
 
   permission-required: true
-  permission-error: "&9[&2&lJ&6&lT&9]: &cNuuuu, you do not have permission for this thingy! O.O"
-  error-message: "&9[&2&lJ&6&lT&9]: &b/Nametag &a[Text]"
-  success-message: "&aYou wrote a nametag!"
+  permission-error: "&f[&4&lFF&f]: &cYou do not have permission to use this command"
+  error-message: "&f[&4&lFF&f]: &f/Nametag &f[Text]"
+  success-message: "&fYou successfully wrote a nametag."
   required_args: 1
   register: true
   
@@ -81,37 +77,36 @@ reportbug:
   command: /reportbug
   type: RUN_CONSOLE
   runcmd:
-  - /mail send joshtiger &9[&3Bug&9] &7<&a$player&7> &3$multiargs
-  - '$text$&9[&2&lJ&6&lT&9]: &aThanks! the bug report has been sent to tiger land! OwO'
-  - '$text$&9'
-  - '$text$&aUsername: &7$player'
-  - '$text$&bMessage: &b"&3$multiargs&b"'
-  - '$text$&9'
+  - /mail send paradoxpanda &f[&4Bug&f] <$player> $multiargs #sends in game mail to panada.
+  - '$text$&f[&4&lFF&f]: &fThank you! The bug report has been sent to our staff. we will try to fix this issue as soon as possible!'
+  - '$text$&f'
+  - '$text$&fUsername: $player'
+  - '$text$&fMessage: "&f$multiargs"'
+  - '$text$&f'
 
   required_args: 1
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&f[&4&lFF&f]: &cYou do not have permissions to use this command."
   permission-required: false
-  error-message: "&9[&2&lJ&6&lT&9]: &b/ReportBug &a[Message] &e- Report a buggy bug. OnO"
+  error-message: "&f[&4&lFF&f]: &f/ReportBug [Message] - Reports a bug to the server's coowners."
   register: true
   
 TimeOnServer:
   command: /TimeOnServer
   type: RUN_CONSOLE
   runcmd:
-  - /execute as $player at @s run playsound gamez.beep.11 master @s ~ ~ ~ 5 1.2
-  - '$text$&a'
-  - '$text$&aDisplaying players time on server.'
-  - '$text$&9Scripted by: &2josh&6tiger'
-  - '$text$&a'
-  - /execute as $player at @s run tellraw $player ["",{"selector":"@s","color":"gold"},{"text":" ","color":"none"},{"score":{"name":"@s","objective":"TimeOnServer"},"color":"green"},{"text":" (Seconds)","color":"gray"}]
-  - /execute as @a[gamemode=!spectator,name=!$player,tag=!Vanished] run tellraw $player ["",{"selector":"@s","color":"dark_green"},{"text":" ","color":"none"},{"score":{"name":"@s","objective":"TimeOnServer"},"color":"green"},{"text":" (Seconds)","color":"gray"}]
-  - '$text$&a'
+  - '$text$&f' #again, I don't fully understand this one. I'm sure panada could give a better explanation of this than me
+  - '$text$&fDisplaying players time on server.'
+  - '$text$&fScripted by: &5&lJoe&f&lMamma'
+  - '$text$&f'
+  - /execute as $player at @s run tellraw $player ["",{"selector":"@s","color":"yellow"},{"text":" ","color":"none"},{"score":{"name":"@s","objective":"TimeOnServer"},"color":"white"},{"text":" (Seconds)","color":"gray"}]
+  - /execute as @a[gamemode=!spectator,name=!$player,tag=!Vanished] run tellraw $player ["",{"selector":"@s","color":"white"},{"text":" ","color":"none"},{"score":{"name":"@s","objective":"TimeOnServer"},"color":"white"},{"text":" (Seconds)","color":"gray"}]
+  - '$text$&f'
   - /execute as $player at @s run tellraw @s[tag=IsStaff] [{"text":"§9Eligible for §2Member §9- ","color":"dark_green"},{"selector":"@a[scores={TimeOnServer=36000..}]","color":"green"}]
   - /execute as $player at @s run tellraw @s[tag=IsStaff] [{"text":"§9Eligible for §2Member§6+ §9- ","color":"gold"},{"selector":"@a[scores={TimeOnServer=518400..}]","color":"aqua"}]
-  - '$text$&a'
-  - '$text$&a10 Hours = &7(36000 seconds)'
-  - '$text$&a6 Days = &7(518400 seconds)'
-  - '$text$&a'
+  - '$text$&f'
+  - '$text$&f10 Hours = (36000 seconds)'
+  - '$text$&f6 Days = (518400 seconds)'
+  - '$text$&f'
   permission-error: "&cError: This command is offline."
   permission-required: false
   register: true
@@ -120,11 +115,11 @@ fakelogin:
   command: /fakelogin
   type: RUN_CONSOLE
   runcmd:
-  - /execute as $player at @s run tellraw @a [{"selector":"@s","color":"yellow"},{"text":" joined the game","color":"yellow"}]
+  - /execute as $player at @s run tellraw @a [{"selector":"@s","color":"yellow"},{"text":" joined the game","color":"yellow"}] #gives a convincing login message, then deactivates vanish
   - /sudo $player vanish disable
-  - '$text$&9[&2&lJ&6&lT&9]: &bYou have logged in fakely. :3'
+  - '$text$&f[&4&lFF&f]: &fWelcome back, $player'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&f[&4&lFF&f]: &This command is for staff use only."
   permission-required: true
   permission-node: joshtiger.fakelogin
   register: true
@@ -133,11 +128,11 @@ fakelogout:
   command: /fakelogout
   type: RUN_CONSOLE
   runcmd:
-  - /execute as $player at @s run tellraw @a [{"text":"$player left the game","color":"yellow"}]
+  - /execute as $player at @s run tellraw @a [{"text":"$player left the game","color":"yellow"}] #gives a convincing logout message, then activates vanish
   - /sudo $player vanish enable
-  - '$text$&9[&2&lJ&6&lT&9]: &bYou have been logged out fakely. :3'
+  - '$text$&f[&4&lFF&f]: &fWelcome to Incognito Mode.'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&f[&4&lFF&f]: &cthis command is meant for staff use only."
   permission-required: true
   permission-node: joshtiger.fakelogout
   register: true
@@ -146,11 +141,11 @@ fakeafk:
   command: /fakeafk
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &bFake afking o3o'
-  - '$text$&9  &7(Players still can see when your in GM 3 on Tab though.)'
+  - '$text$&f[&4&lFF&f]: &fOh no, $player is missing owu' #gives a convincing afk message without putting you in the afk state. forgetting to fake afk before leaving your keyboard will lead to 2 afk messages in a row.
+  - '$text$&f  &f(Using spectator mode while fake afk will blow your cover, as your username will become italicized)'
   - '$broadcasttext$&7* $getdisplayname &7is now AFK.'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&f[&4&lFF&f]: &cThis command is for staff use only."
   permission-required: true
   permission-node: joshtiger.fakeafk
   register: true
@@ -159,10 +154,10 @@ fakeunafk:
   command: /fakeunafk
   type: RUN_CONSOLE
   runcmd:
-  - '$text$&9[&2&lJ&6&lT&9]: &bFake unafking ouo'
+  - '$text$&f[&4&lFF&f]: &fFake unafking ouo' #gives a convincing no longer afk message. running this while afk will lead to 2 no longer afk messages at once
   - '$broadcasttext$&7* $getdisplayname &7is no longer AFK.'
 
-  permission-error: "&9[&2&lJ&6&lT&9]: &cYou do not have permissions to use this command."
+  permission-error: "&f[&4&lFF&f]: &cThis command is for staff use only."
   permission-required: true
   permission-node: joshtiger.fakeunafk
   register: true
