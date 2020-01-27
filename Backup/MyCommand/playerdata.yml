@@ -1,0 +1,2135 @@
+# 
+#  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/    					#
+0bc00aa0-1461-49a0-92b1-8a2f3b212c88:
+  mood: §bHyper
+  object: §3Can
+  msg: §ajoshtiger §7screams just like an §4Upset §3Backpack
+  randommood: §4Upset
+  randomobject: §3Backpack
+  randomcolor: §4Red
+  WorldSize: Normal
+  WorldTemp: Normal
+  EntityType: Creeper
+  EntityMusic: onebadwolf
+  EntityGender: Female
+  EntityName: §eJames
+  randomlocation: §9Zoo
+  randomeffect: §5Crazy
+  FursonaName: §2Josh§6tiger
+  FursonaGender: Male
+  FursonaSpecies: §6§lTiger §7(Bengal)
+  FursonaColors: Black, Orange and White
+  FursonaBodyType: Feral/Antro §a(Chubby)
+  FursonaBio: I am a really energetic §6tiger §bthat really loves to eat §6cookies
+    §band do random §5§lmagical §6§ltiger §bstuffs. OuO
+  PlayerSmell: §6§lCookies§e! §b§lOuO
+  PlayerIP: /162.251.9.100:58120
+  PlayerAnimal: §6§lFloofy Cookie eating Tiger
+2866f4b2-7d9e-4883-a085-8166f8fe0f56:
+  PlayerAnimal: meme that has A S C E N D E D
+1cfbeb2f-cd6a-4a9c-9597-2a8462047a67:
+  PlayerAnimal: robot
+  PlayerSmell: cheese
+  FursonaName: esix
+  FursonaGender: N/A
+2375552f-e2ad-4c39-bfbb-e55ce6ca030c:
+  PlayerAnimal: Maincoon kitty cat
+c3a0c2eb-84a7-498d-b222-edb8e659fcb5:
+  PlayerAnimal: CrazyCatLady
+2c61af4f-577b-49c8-8bfb-ecbd9a1c1db6:
+  PlayerAnimal: dead meme
+d1c12a5d-e41a-4eb3-9c52-df7aa247ab00:
+  PlayerAnimal: raccoon
+84085d68-ee0b-4c5b-9f91-d038a79f47a7:
+  PlayerAnimal: chupacabra
+167a4da8-c107-482f-a9c9-20de2c4169c3:
+  PlayerAnimal: §7Vatland Slime Monster
+  randommood: §4Angry
+  randomobject: §3Blender
+  randomcolor: §6Orange
+  msg: §aSLlM3M0NST3R §7found a random §5Magic §3Blender§7.
+  randomlocation: §9School
+  randomeffect: §5Magic
+  PlayerSmell: §6Cinnamon §cApple
+8f89d472-4559-404f-8293-be51930a0ad3:
+  PlayerAnimal: Furry
+  PlayerSmell: a Cinnimon smelled furry
+9dd57d9c-d85f-4b7e-9fca-1fc2feb9afdc:
+  PlayerAnimal: bat
+  PlayerSmell: a forest
+  FursonaName: Emi
+  FursonaGender: Female
+  FursonaSpecies: Daemon Werewolf
+  FursonaBodyType: Dyke
+  FursonaColors: blue and brown
+e5bf500f-e176-4819-945c-30e20570d268:
+  PlayerAnimal: Slut
+3912aebe-f3f8-4b82-83c4-16bcc0252df5:
+  PlayerAnimal: Otter
+  randommood: §4Upset
+  randomlocation: §9Texas
+  randomobject: §3Rug
+  randomcolor: §bAqua
+  randomeffect: §bFlying
+  msg: §aBloatedDumpling §7wished that they were a §3Rug§7.
+0c0c64cc-a05d-4b43-8fb0-fa497513f625:
+  PlayerAnimal: Fluffy Dragon
+bc06c970-bbb3-435c-8da4-2ad9b4cfd512:
+  PlayerAnimal: bitch
+06ca9451-6427-447b-8bb4-a1ca9a0493ac:
+  PlayerAnimal: §4J§6o§eb§ae§3a§dn§5s
+c1f094f5-93e5-4d19-803a-47d76ff819fa:
+  PlayerAnimal: §4B§2ig B§2i§4BB§2a
+f73d9539-923b-4d81-a587-0a70999d8186:
+  PlayerAnimal: Gryphon
+87707e99-e374-4877-93ea-9c65ae874370:
+  PlayerAnimal: toaster
+8871c908-b9ca-4f0c-8a51-13ab10d34557:
+  PlayerAnimal: Anime Tiddy
+  randommood: §5Confused
+  randomobject: §3Computer
+  randomcolor: §5Purple
+  msg: §aparadistrainfan §7wished that they were a §3Computer§7.
+  randomlocation: §9Tree house
+  randomeffect: §bFlying
+25605e57-28ea-42ca-9047-2b9f292f11da:
+  PlayerAnimal: Wolfy
+7e1cfe4a-1a79-4913-9256-4d653e64425c:
+  PlayerAnimal: Wolf
+9c24a044-d5ec-42f0-8d19-5a4cc8ef79b6:
+  PlayerAnimal: Shark
+  randommood: §1Sad
+  randomobject: §3Can
+  msg: §aChewyTheWolf §7slapped their self using only a §3Can
+  randomcolor: §aGreen
+  FursonaName: Chewy
+  FursonaGender: Female
+  FursonaSpecies: Wolf
+  PlayerSmell: Chewy Chews(TM)
+  randomlocation: §9Pet store
+  randomeffect: §bFlying
+  FursonaBodyType: Anthro/Feral
+  FursonaColors: §5Purple§b, §dpink§b, and §fwhite
+  FursonaBio: '*Chews on you*'
+670c0181-9099-41c6-b6ce-16fbaf389dcb:
+  PlayerAnimal: the man of the mask
+  randommood: §aHappy
+  randomobject: §3Ball
+  randomcolor: §4Red
+  msg: §aBlaze_And_Arkka §7ate a §3Ball§7, making them feel §aHappy§7.
+  randomlocation: §9Fastfood place
+  randomeffect: §8Slow
+  FursonaGender: nonbinary
+  FursonaName: Malachi
+  FursonaSpecies: Dino wolf
+  FursonaColors: white,grey,green,black,orange,red and light grey
+  PlayerSmell: blood
+f1d18faf-239b-4860-a125-40a28023c991:
+  PlayerAnimal: Maned Wolf
+  randommood: §3Sleepy
+  randomobject: §3Can
+  msg: §6Bluebox21 §7saw a scary §3Can§7... making them feel really §3Sleepy§7.
+  PlayerSmell: Space
+  FursonaName: Hazel
+  FursonaGender: Male
+  FursonaSpecies: Maned Wolf
+  FursonaBodyType: Stiltfolf
+acbc5b9f-8b11-4259-9736-bfcd7fb5a539:
+  randommood: §bHyper
+  randomobject: §3Ball
+  msg: §aToasty_Journey §7starts making §3Ball §7sounds.
+  randomcolor: §bAqua
+  PlayerAnimal: potato
+76a5947d-9fb4-4f0a-a915-973c2f15b350:
+  PlayerAnimal: Toaster
+  randommood: §bHyper
+  randomobject: §3Bag
+  randomcolor: §9Blue
+  msg: §aTrashology §7saw a §9Blue §3Bag§7... and liked the color.
+  randomlocation: §9Texas
+  randomeffect: §bShiny
+  PlayerSmell: coco
+51940ceb-6b85-4654-a3f8-0777bdccb984:
+  PlayerAnimal: potato
+  randommood: §eAnnoyed
+  randomobject: §3TV
+  randomcolor: §eYellow
+  msg: §aCyberDerg §7just randomly flopped.
+caeb31db-c9c2-4fcf-861d-a10e0a6ce71e:
+  PlayerAnimal: §2Zombie
+  randommood: §4Upset
+  randomobject: §3Phone Charger
+  randomcolor: §4Red
+  msg: §aRavenWolfTiger §7found a random §eLoud §3Phone Charger§7.
+  randomlocation: §9Home
+  randomeffect: §eLoud
+3fad3ecd-af31-40a3-8786-15d70d622c96:
+  PlayerAnimal: Dragon?
+f2e1788a-7980-4aa9-b3b3-a6b5affc3cd2:
+  PlayerAnimal: Folf
+bdde25d6-ea07-4aa4-99a4-2a8bb2b4e09e:
+  PlayerAnimal: Wolf
+  randommood: §4Upset
+  randomlocation: §9Store
+  randomobject: §3Bottle
+  randomcolor: §6Orange
+  msg: §aRilo_Wolf §7turned §6Orange §7when they saw a §3Bottle
+  randomeffect: §8Slow
+2351d963-389d-4c66-b3ba-baec66a07b04:
+  PlayerAnimal: Toaster
+5ad17f5f-6d6c-4886-9a36-bff3be356ded:
+  PlayerAnimal: Crow
+  PlayerSmell: a perverted squid.
+904c7a13-e08b-46bb-bd87-2de30cfcc45d:
+  PlayerAnimal: wolf
+0627830e-09d7-489d-b88c-360d53395c82:
+  PlayerAnimal: Fox
+d0dc6fef-cb11-461a-9439-35b203997d06:
+  PlayerAnimal: Porcupine
+a89bdf28-f803-49eb-9373-4f06aa89181a:
+  PlayerAnimal: 31
+  PlayerSmell: wolf
+c00b6026-76c3-4a4e-bd90-4499472f7e41:
+  PlayerAnimal: dutch angel dragon
+  FursonaName: azu
+  FursonaSpecies: dutch angel dragon
+  FursonaGender: female
+  FursonaBodyType: anthro
+  PlayerSmell: dust
+b2ed60e5-ce35-41e6-a88a-89bd7945b39d:
+  PlayerAnimal: Horse
+  FursonaName: Apollyon
+679ebcfe-8f74-4bfa-b2bb-dcb6716fc573:
+  PlayerAnimal: lion
+f5db84a4-34ed-43f6-966f-d8ab09d3716d:
+  PlayerAnimal: wolf
+  randommood: §aHappy
+  randomobject: §3Empty Bottle
+  randomcolor: §4Red
+  msg: §aiceytheicewolf §7felt §aHappy§7, so they poked a §3Empty Bottle
+  randomlocation: §9Tree house
+  randomeffect: §bFast
+  FursonaName: iceytheicewolf
+  FursonaGender: male
+  FursonaSpecies: wolf
+  FursonaBodyType: anthro
+  FursonaColors: blue and light blue
+  FursonaBio: icey is a cute wolf boi that is no longer gay XD
+  PlayerSmell: Mint
+195096c3-9f20-4270-b872-d722d4ba1b53:
+  PlayerAnimal: meme
+  randommood: §4Angry
+  randomobject: §3TV
+  randomcolor: §bAqua
+  msg: §aMeMyselfNPie §7screams just like an §4Angry §3TV
+  randomlocation: §3Zoo
+ef47d2ee-63cc-4fbd-9563-ec4f74acc3f4:
+  PlayerAnimal: multiple species chimera
+  randommood: §aHappy
+  randomlocation: §9Store
+  randomobject: §3Phone Charger
+  randomcolor: §dPink
+  randomeffect: §8Slow
+  msg: §aChrysocollaCat §7ate a §3Phone Charger§7, making them feel §aHappy§7.
+  FursonaName: Chrysocolla Hydrangea
+  FursonaGender: Female
+  FursonaSpecies: Cat, goat, parrot, dolphin, snake and human chimera
+  FursonaBodyType: Anthro
+  FursonaBio: Chrys was made in a lab.
+  FursonaColors: Turquoise, pink, lime green, magenta, green, dark blue, yellow, black
+    and brown
+34c247f2-8195-4f85-9f66-260e6ef0979f:
+  PlayerAnimal: goat
+340f3539-b57f-45a4-95e7-16153959398f:
+  PlayerAnimal: Demon Bat Cat
+  randommood: §1Sad
+  randomlocation: §9Music store
+  randomobject: §3Cup
+  randomcolor: §5Purple
+  msg: §aAspenTheAngel §7turned §5Purple §7when they saw a §3Cup
+  randomeffect: §bFast
+  PlayerSmell: Honey
+  FursonaSpecies: Kittydog
+  FursonaColors: Yellow-ish and Purple
+  FursonaGender: Non-Binary
+  FursonaName: Honey
+  FursonaBodyType: Thicc
+  FursonaBio: Outgoing
+e051e584-fa5a-4bf8-bedf-01b84c56a67d:
+  randommood: §bHyper
+  randomobject: §3Toaster
+  randomcolor: §dPink
+  msg: §aJustAHoloPilot §7has a §5Magic §3Toaster§7 head.
+  PlayerAnimal: Human
+  randomlocation: §9Bank
+  randomeffect: §5Magic
+c5760057-8551-4da8-a9d8-6568c762f884:
+  randommood: §eAnnoyed
+  randomobject: §3Desk
+  randomcolor: §9Blue
+  msg: §aFreshWolfRiley §7wished that they were a §3Desk§7.
+89f1c638-c3c3-468c-ac63-3b2d6df0545d:
+  randommood: §aHappy
+  randomobject: §3Bag
+  randomcolor: §eYellow
+  msg: §aArdragos §7turned §eYellow §7when they saw a §3Bag
+  PlayerAnimal: Lycanroc
+c07bbec6-3c85-489f-9e1e-fab9385bbeac:
+  PlayerAnimal: Husky
+  PlayerSmell: dirt and puppy chow
+34cd89ef-e8cc-4b1c-8957-b8b449f9e243:
+  randommood: §3Sleepy
+  randomlocation: §2Tree house
+  randomobject: §3Plate
+  randomcolor: §4Red
+  msg: §a000Ryck §7turned §4Red §7when they saw a §3Plate
+  PlayerAnimal: Vitamin Enriched Husky
+429f0653-29b8-497d-ae87-3084cac371c2:
+  randommood: §3Sleepy
+  randomlocation: §3Zoo
+  randomobject: §3Pillow
+  randomcolor: §dPink
+  msg: §aspiritdoodle §7wished that they were a §3Pillow§7.
+ec815e1c-ca54-440a-be83-840b97475b9e:
+  randommood: §aHappy
+  randomlocation: §3Walmart
+  randomobject: §3Rug
+  randomcolor: §aGreen
+  msg: §aKurt_Is_A_Name §7went to a §3Walmart §7to buy some §3Rugs§7.
+d2455e4c-471f-4e2e-b6b0-36ac35e9c3ef:
+  randommood: §aHappy
+  randomlocation: §9Home
+  randomobject: §3Tree
+  randomcolor: §9Blue
+  msg: §aAstralFolf570 §7turned §9Blue §7when they saw a §3Tree
+  randomeffect: §eLoud
+bdd83304-4bf9-43ef-a4d0-01145482790b:
+  randommood: §4Upset
+  randomlocation: §9Zoo
+  randomobject: §3Rug
+  randomcolor: §aGreen
+  randomeffect: §eLoud
+  msg: §aOGSunflower §7ate a §3Rug§7, making them feel §4Upset§7.
+a73e076a-3860-4b04-ac1f-763ce3625522:
+  PlayerAnimal: smolfoxi
+0c6468ea-f28d-4854-be07-08fa447ecefc:
+  randommood: §4Upset
+  randomlocation: §9Zoo
+  randomobject: §3Blender
+  randomcolor: §9Blue
+  randomeffect: §5Crazy
+  msg: §aKashnit §7has a §5Crazy §3Blender§7 head.
+530f91d6-4bf0-4c53-b752-312feacdbf76:
+  randommood: §4Angry
+  randomlocation: §9Store
+  randomobject: §3Rug
+  randomcolor: §4Red
+  randomeffect: §5Magic
+  msg: §aMidniteDemonWolf §7wished that they were a §3Rug§7.
+  PlayerAnimal: Demon Wolf/Hyena Mix
+  FursonaBodyType: A bit thick waisted, Anthro/Feral
+  FursonaColors: Blue, Black, Grey, white and Cyan.
+  FursonaGender: Female
+  FursonaName: Midnite Shadows
+  FursonaSpecies: Demon Wolf/Hyena Hybrid
+  FursonaBio: 'Likes: Night time, Dubstep & Metal music, Friends, Cuddles, Long naps
+    & Skittles.'
+4aad42ea-9cca-4277-9696-14743bba98da:
+  randommood: §1Sad
+  randomlocation: §9Walmart
+  randomobject: §3Bag
+  randomcolor: §9Blue
+  randomeffect: §8Slow
+  msg: §aSergeantSergal §7saw a §9Blue §3Bag§7... and liked the color.
+  PlayerAnimal: Yeen
+b884c33e-6760-45cb-830a-db620359d8a7:
+  PlayerAnimal: Apache Helicopter
+66a28bac-8800-4155-9150-2e0d89eab1a4:
+  PlayerAnimal: German Shepard
+bf67ea82-b3fa-46bb-a5ff-2e418fd87ee5:
+  PlayerAnimal: Circuit Dragon
+  FursonaName: Data
+  FursonaGender: Male
+  FursonaSpecies: Circuit Dragon
+  FursonaBodyType: a very round anthro
+  FursonaColors: red and blue with green eyes and tounge
+  FursonaBio: Data is a very round Circuit Dragon made by a rogue AI from a distopian
+    future. He always eats way too much resulting in his round bodyshape.
+  randommood: §4Upset
+  randomlocation: §9Pet store
+  randomobject: §3Backpack
+  randomcolor: §6Orange
+  randomeffect: §bFlying
+  msg: §aData_Circuit §7starts making §3Backpack §7sounds.
+  PlayerSmell: Balldragon
+26b9a0aa-558e-44d0-9c49-8e53e03fde31:
+  PlayerAnimal: fox
+a2bb7023-fd83-4657-ba28-b223984ec578:
+  PlayerAnimal: AndroidHyena
+ad5d1a3e-19dc-4564-b097-1f24c7832a74:
+  PlayerAnimal: Dhole
+62501209-3dbf-49af-acb8-12d8cd64e3cf:
+  PlayerAnimal: fox
+fe412c2f-6e43-4828-aad5-838c87287442:
+  PlayerAnimal: COmputer
+bfd7a336-7b2c-4c52-9574-0bbf9b1c1486:
+  PlayerAnimal: WolfBra
+1d4220ca-7e6e-4195-b87b-d30b3f1af4c7:
+  PlayerAnimal: Russian Fox
+3fe3f202-8a59-4286-af9a-152e23f181dd:
+  PlayerAnimal: Beginner Fursuit Maker
+  FursonaBodyType: Anthro
+  FursonaColors: 'Pastels: Pink, red,orange,yellow,green,blue,& purple'
+  FursonaGender: Male
+  FursonaName: N/A (I STILL NEED ONE!! HELP!)
+  FursonaSpecies: Some sort of Canine
+  FursonaBio: Super F***ing Gay
+  PlayerSmell: A Beginner Fursuit Maker That's Open For Commissions
+16bdfd85-c323-4340-bc29-2913c87c3298:
+  PlayerAnimal: Chimera
+  PlayerSmell: Boi get you're nose like 5 fucking feet away from me
+eb482538-7b93-4e78-947c-d0c8dfa23104:
+  PlayerAnimal: Stiff Fursuit
+  PlayerSmell: Cotton Candy
+  FursonaColors: §cNot set
+50a3d75b-c55d-4852-a970-2313753aba59:
+  PlayerAnimal: ocelot hybrid thingy or something
+64e4d135-b863-4775-a30e-efb7e13b49b6:
+  PlayerAnimal: sad sad fennec fox
+4bcab7e4-daa1-46d6-90c0-8fd3afd0923d:
+  PlayerAnimal: PaintCoveredPup Peryton
+  FursonaSpecies: Peryton
+  FursonaGender: Male
+  FursonaName: Perry
+  PlayerSmell: cherries, vanilla, and cinnamon
+796b948b-00c9-479f-9429-4c1f66254e63:
+  PlayerAnimal: Bunny
+360b38cd-5b50-470a-ad32-d6ee6ac812e2:
+  PlayerAnimal: dragon
+4832ab27-32fc-46ae-9d6e-33e878eea3e9:
+  PlayerAnimal: Fox
+5da63edd-5274-4d08-b690-5e0d8fc2bd56:
+  PlayerAnimal: Seed
+b2250d4e-4aaf-43d8-8aee-e733410f04d9:
+  PlayerAnimal: edge lord
+c66a183f-adf3-4310-aa8d-688fa53ae4e8:
+  PlayerAnimal: Red Fox
+  PlayerSmell: A fox, of course.
+  FursonaName: Rena
+  FursonaGender: Female
+  FursonaSpecies: Fox
+  FursonaBodyType: Chubby
+19fe218f-23a1-4745-a7eb-b8da0bdde1d1:
+  PlayerAnimal: Otter/Corgi
+  FursonaName: Kyler
+  FursonaGender: Male
+  FursonaSpecies: Corgi/Otter
+  FursonaBodyType: Fit
+  FursonaColors: Brown, Tan, and White
+  PlayerSmell: Gummy Bears!
+a2914824-3b3b-4880-8506-259d31c28bc3:
+  PlayerAnimal: Beagle
+  FursonaColors: White
+  FursonaBio: I'm deactive and want to kms.
+  FursonaGender: Dead
+  FursonaSpecies: Human
+  FursonaName: Jackwell
+  FursonaBodyType: Skinny
+75abba9d-bb91-4559-90d0-12bc924be3bb:
+  PlayerAnimal: Logan Paul'
+558796b5-b5af-4a19-b85d-6087a874748e:
+  PlayerAnimal: dragon
+  PlayerSmell: dragon
+98e71cfc-0065-4226-b876-7df093eefe97:
+  PlayerAnimal: Winged Wolf
+  PlayerSmell: A salty bitch
+f6080c7a-c7da-4031-aa28-a889f95ad9a0:
+  PlayerAnimal: cat
+e5833c91-9719-4f78-880f-d7bf253a0bda:
+  PlayerAnimal: Folf
+562fd924-b7dc-475e-83ed-a9bd4cec9ca8:
+  PlayerAnimal: Ram
+e064ba45-8389-4ad0-8101-e8159a01509c:
+  PlayerAnimal: '- .... . / -... . ... - / .--. --- - .- - --- . ... / . ...- . .-.
+    / ---... ...--'
+  randommood: §5Confused
+  randomlocation: §9Walmart
+  randomobject: §3Piano
+  randomcolor: §dPink
+  randomeffect: §8Slow
+  msg: §aBeaubo §7felt §5Confused§7, so they poked a §3Piano
+CONSOLE:
+  PlayerAnimal: Server
+33f5d5ac-c5f9-4f50-aa84-88c7ed833508:
+  PlayerAnimal: オタク
+b5207494-a597-4595-b027-a4db090c36cb:
+  PlayerAnimal: wolf
+  FursonaName: Rivara
+  FursonaSpecies: im from Poland and im 11 years old
+  FursonaColors: green,gray,black,white,brown/orange/gold,blue,pink,brown
+  FursonaGender: female
+6fcd68c1-b442-4339-ad3e-5fed61c64df5:
+  PlayerAnimal: pathetic dragon that just wants to be loved...
+f7cf75d2-643d-4f61-8dd9-d58f03c61842:
+  PlayerAnimal: Celestial Dragon
+cae41b15-dc1d-4084-a90a-b7c1ca0a50a9:
+  PlayerAnimal: Buffalo
+40465e06-2b95-4907-ab51-49036c0b1fbb:
+  PlayerAnimal: rat
+cfa49037-51c5-4be5-8d94-cd12f7ee6df3:
+  PlayerAnimal: Naked Mole Rat
+0b9debae-0f17-4d0e-a83d-ba2c91015243:
+  PlayerAnimal: Vice President Mike Pence
+  FursonaName: Vingt
+  FursonaGender: Male
+  FursonaSpecies: a real human bean
+  FursonaBodyType: Mesomorph
+4f77111a-7232-4985-8eff-56ebaba51212:
+  PlayerAnimal: Bad Dragon's Demogorgon
+a870bcc9-1c08-481e-8c76-6cefb53fed61:
+  PlayerAnimal: Parrot with massive cock
+a478b445-1c5e-4827-a342-1e307cefa3f8:
+  PlayerAnimal: geocarcinogenesexual
+26c36a6d-b18f-4f0f-9039-df669a87613e:
+  PlayerAnimal: Russian Apyr
+6dcc2c02-da60-47a7-b056-2b2f6019d3ac:
+  PlayerAnimal: Llama
+c1d9404b-66e4-4b0b-89f5-6f3bd5b45959:
+  PlayerAnimal: German Sheperd
+80e8b01a-b572-4ec8-b271-3c3cbf77f37d:
+  PlayerAnimal: Shark
+2bcbfb1f-933b-41c1-8943-c031febac7c5:
+  PlayerAnimal: Deer Boye
+58e50b4d-46b8-4c72-b3c3-06d6a9aa9c4c:
+  PlayerAnimal: Luxemboye
+f8510582-8919-49f6-b067-a829f293f0fd:
+  PlayerAnimal: Female Kitty! :D
+f8a37e45-6a1c-4e70-b9d4-af443b381c0f:
+  PlayerAnimal: Kitsune
+  randommood: §eAnnoyed
+  randomlocation: §9Bank
+  randomobject: §3Rug
+  randomcolor: §dPink
+  randomeffect: §5Magic
+  msg: §aZippThePoolT0y §7saw a §dPink §3Rug§7... and liked the color.
+  PlayerSmell: sand,dirt,glass,buscuits
+3e7047af-53a2-485d-ab81-9c398145a5b5:
+  PlayerAnimal: OogaBooga
+e20314f8-43af-46c5-938c-351cd1f83f7a:
+  PlayerAnimal: Skadoski
+d94f3401-0c90-49d2-ae7b-c4cf08a06712:
+  PlayerAnimal: Fox Protogen
+  PlayerSmell: coffee, electrical components and... scotch?
+0463e04a-fafd-4d3e-b9b0-078aeec78733:
+  PlayerAnimal: Monster
+  randommood: §aHappy
+  randomlocation: §9Tree house
+  randomobject: §3Computer
+  randomcolor: §eYellow
+  randomeffect: §5Crazy
+  msg: §apapirazzi §7saw a §eYellow §3Computer§7... and really didn't like the color.
+  FursonaBio: p a p i r a z z i
+  FursonaName: papirazzi
+  FursonaGender: papirazzi
+  FursonaSpecies: papirazzi
+  FursonaBodyType: papirazzi
+  FursonaColors: papirazzi
+c7a86f1d-17eb-4a8d-9693-48b69b2873ae:
+  PlayerAnimal: Pool Toy Pet!
+  FursonaBio: I'm a small little pool toy that loves hug! Squeak me!
+  FursonaColors: Orange and a creamy white. Also brown hair.
+  FursonaGender: Both, I can change my vinyl depending on the situation.
+  FursonaName: Zipp
+  FursonaSpecies: Pool Toy Doggy
+  FursonaBodyType: Pudgy, puffy, and filled with air!
+  PlayerSmell: Vinyl
+c9ace6f0-543a-42fb-b9a1-bf84e3d0ff3b:
+  PlayerAnimal: Cat
+3d7afa15-b84d-4dca-86d3-b4b833612256:
+  PlayerAnimal: squidkitty/foxmew
+a9b10be4-e5e0-48d0-9d2a-87cde797e890:
+  PlayerAnimal: dog
+98067070-3f94-4d67-a7e4-a6e7bc72860e:
+  PlayerAnimal: attack helicopter
+e6b747f8-0887-43fe-954e-0cf1f77637bb:
+  PlayerAnimal: prius bumper sticker
+c090187e-900a-45d8-9913-c5b6f41cc47d:
+  PlayerAnimal: Hyena
+9740ffdd-7213-4478-a3a3-380687bce5b4:
+  PlayerAnimal: Lynx
+b1c0a093-a4da-454e-8538-ae0fe2a7fad6:
+  PlayerAnimal: Deer/SnowLeopardus
+  FursonaName: Célestin
+  FursonaGender: Male
+  FursonaSpecies: 80% Snow Leopardus / 20% Deer
+  FursonaBodyType: Anthro
+  FursonaColors: White blue and white
+  randommood: §3Sleepy
+  randomlocation: §9Store
+  randomobject: §3Can
+  randomcolor: §eYellow
+  randomeffect: §8Slow
+  msg: §aOkonoShy §7screams just like an §3Sleepy §3Can
+96df96a4-864a-4cef-8052-efc1c63ec563:
+  PlayerAnimal: Dutch Angel Dragon
+c662313f-5932-4571-90f9-3e3a486d93f0:
+  PlayerAnimal: otter
+7feb0331-8045-4ccf-be0f-ca4c09e5fad5:
+  PlayerAnimal: wolf
+b240a7ee-1eea-411d-bd65-f6e3ec35c872:
+  PlayerAnimal: Deer
+def70b6e-d09c-4ad4-8202-bc5f9ea84cce:
+  PlayerAnimal: bear
+  FursonaName: Bronco
+  FursonaGender: Male
+  FursonaSpecies: Grizzly Bear
+  FursonaBodyType: Fat Boi
+  FursonaColors: Brown and Pink Hair
+  FursonaBio: hi! im bronco and im a gay piece of shit. gay for biscuit the doggo
+    and i love undertale
+0e0b03be-4ea2-4e58-840c-9daad23197fd:
+  PlayerAnimal: Fox
+  FursonaGender: Male
+  FursonaSpecies: Fox
+  FursonaColors: Shamrock,White,Liquorice,Azure,and Canary
+  FursonaBodyType: Average
+  FursonaName: Snap
+  FursonaBio: Medieval Irish fox who is an expert in horticulture and healing.
+  PlayerSmell: Lavender and Mint
+f3380842-79ca-45e4-8bad-1d6dc2b131f6:
+  PlayerAnimal: lion
+c044a107-6c29-4b30-ac48-5a3625652eb2:
+  PlayerAnimal: Folf
+  FursonaBodyType: Lean / Strong
+  FursonaColors: Orange / Tan
+  FursonaGender: Male / Male
+  FursonaName: Zombs / Cyn
+  FursonaSpecies: Folf / AWD
+  FursonaBio: a lad
+  PlayerSmell: the color orange
+67b60d12-668c-4d69-a3eb-cf13880d008b:
+  PlayerAnimal: Ram/Cat
+  FursonaName: Jordyn
+  FursonaGender: Male
+  FursonaSpecies: Ram/Deer/Cat
+  FursonaBodyType: Average
+  FursonaColors: Green, Brown, and Tan
+cb3b18e7-9c22-4b63-abce-61e33a5cee34:
+  PlayerAnimal: Bat
+  FursonaSpecies: Gator
+  FursonaGender: Female
+  FursonaName: Sadie
+41935c71-5d48-4104-b8d6-893f6f7189da:
+  PlayerAnimal: Red River Hog
+  randommood: §eAnnoyed
+  randomlocation: §9Texas
+  randomobject: §3Plate
+  randomcolor: §9Blue
+  randomeffect: §bFast
+  msg: §aCinnaminister §7felt §eAnnoyed§7, so they poked a §3Plate
+  FursonaGender: Male
+  FursonaSpecies: Red river hog ("pig" suits him just fine)
+  FursonaBodyType: 'Anthro | 5''10" | Weighs in at 415 lbs c:'
+  FursonaBio: Heavy eater, heavy sleeper; just plain heavy!
+  FursonaColors: Orange, with taupe and ivory features
+  FursonaName: Cin
+  PlayerSmell: fast food, mud and general pig-stink.
+1a781367-651c-4175-ab16-ecd6c491219d:
+  PlayerAnimal: Bear
+5c5794c3-9241-49a3-8c1b-2dc7281d8520:
+  PlayerAnimal: Lynx
+  PlayerSmell: Cluttered Html
+  FursonaName: Krinael
+  FursonaSpecies: Canadian Lynx
+  FursonaGender: Female
+  FursonaColors: Light §bTeal, Light §dLilac, §fWhite and §0Black
+  FursonaBio: Just a smol floof Lynx named Krinael :3
+  FursonaBodyType: Chubby owo
+40f17116-d1ca-494d-b615-477c090a5224:
+  PlayerAnimal: cat
+  PlayerSmell: birthday cake muffins
+913d58e8-615d-4a49-8e56-636b3c954b75:
+  PlayerAnimal: Ferret
+e9ebf2d1-ccfc-445f-a624-747d8d61456b:
+  PlayerAnimal: Fur-Dragon
+32ff11da-8b0f-4e8b-ab93-48cf18ba0c23:
+  PlayerAnimal: Husky
+cdf89427-68af-4eb4-bde8-ee1ca7d05eb4:
+  PlayerAnimal: Fox
+12f5f853-645a-4129-a87b-75863556a57e:
+  PlayerAnimal: Czechoslovakian Wolfdog
+4ee61571-2c0a-4f32-8397-e8eb8497639b:
+  PlayerAnimal: My parents beat me this isnt a joke but a cry for help
+91da9551-b31d-4374-9ba0-f0bb4661191a:
+  PlayerAnimal: Fox
+9432aa69-cb8f-4ab6-9087-972e83bfb06d:
+  PlayerAnimal: WHY MY PEEPEE HARD
+ed1872ef-34f8-4b02-a153-45ca74ab8bfe:
+  PlayerAnimal: Very sad pickle frog boy with meaty fingers
+937c6860-e7d0-4455-a737-7f08ebedf3c4:
+  PlayerAnimal: red river wolf
+  FursonaName: fox from zootopia
+b8a9933a-a95f-47e8-8cca-414ea7422e61:
+  PlayerAnimal: Dragon
+cab6c7b6-4f5c-4dac-9ba3-fa123015f2b5:
+  PlayerAnimal: Bunny
+c1e36827-ccd1-4fb5-9add-b317fcdaa995:
+  PlayerAnimal: Lion
+01259c77-842f-48c0-9d6a-5a3964106a9f:
+  PlayerAnimal: a better gecko
+d9636552-8b52-4225-91a3-e9b1d5d0207d:
+  PlayerAnimal: Husky
+f7cd63c1-0238-46dc-83df-585b07866aa7:
+  PlayerAnimal: Santa Catalina Island Fox
+e709295d-a998-4433-90dd-c0bf250d48e3:
+  PlayerAnimal: Arkeyan Hellfire Dragon
+  FursonaName: Cendrag Roseheart
+  FursonaGender: Male
+  FursonaSpecies: Arkeyan Hellfire Dragon
+  FursonaBodyType: Muscular
+  FursonaBio: Cendrag comes from a war-torn realm of darkness..
+  PlayerSmell: Musk
+418dce25-9dd3-4807-9594-449ee683401b:
+  PlayerAnimal: Gecko
+bd5de651-036d-40a4-b3c0-f30393bc5a29:
+  PlayerAnimal: HORSESHOECRAB
+a54e7da2-8cde-4df3-9299-a575524892aa:
+  PlayerAnimal: Neko
+  FursonaName: Max
+387f7b87-bd5e-460b-a916-1ccf78fda157:
+  PlayerAnimal: jojo siwa
+1d1a2e37-cda7-438b-8a18-49f82a520bd6:
+  PlayerAnimal: CelestialShibaFox
+1c280438-8a45-41b9-b7a6-0aeb5c3c59e0:
+  PlayerAnimal: DutchAngelDragon
+5b674f3f-a201-4b04-8358-e0032d930265:
+  PlayerAnimal: Fox
+79c14fb8-b36c-4203-903c-704950769595:
+  PlayerAnimal: wolf
+bf6c9afa-39da-4bfe-b242-00a609d67ead:
+  PlayerAnimal: Human
+ee59906f-fcd2-4c70-8858-e9f0d703254c:
+  PlayerAnimal: not a human
+  PlayerSmell: rotten eggs
+  FursonaName: Unknown
+  FursonaGender: Unknown
+  FursonaSpecies: Unknown
+  FursonaBodyType: Unknown
+  FursonaColors: Unknown
+  FursonaBio: Unknown
+863830d9-75fe-4150-849d-feff6d71038a:
+  PlayerAnimal: Trans Gay Sky God, God of the sky and also Birds.
+74c759c1-9ef0-4590-8972-9f73c7617394:
+  PlayerAnimal: fucking jedi
+  randommood: §1Sad
+  randomlocation: §9Fastfood place
+  randomobject: §3Computer
+  randomcolor: §aGreen
+  randomeffect: §8Slow
+  msg: §aAutogoliat §7got too §1Sad§7, so they started throwing §3Computers §7at a
+    §9Fastfood place§7.
+7fc28569-d040-49c3-9151-5b0b92becfcf:
+  PlayerAnimal: jojo siwa
+b28f927c-9d8b-47bb-bb22-6c4cfe033ac7:
+  PlayerAnimal: jojo siwa
+0f5c338f-3be5-4834-9225-aa71c823f487:
+  randommood: §4Angry
+  randomlocation: §9Fastfood place
+  randomobject: §3Cup
+  randomcolor: §aGreen
+  randomeffect: §eLoud
+  msg: §aJDButter §7saw a §aGreen §3Cup§7... and really didn't like the color.
+  PlayerAnimal: Gay Wolf
+  PlayerSmell: Roses
+65429dce-c55e-4e30-9060-390108293cb2:
+  randommood: §4Upset
+  randomlocation: §9School
+  randomobject: §3Bed
+  randomcolor: §aGreen
+  randomeffect: §8Slow
+  msg: §aLewi_Thoooo §7turned §aGreen §7when they saw a §3Bed
+  PlayerAnimal: hyena
+17ac125c-0275-494b-9903-104b01cc63c8:
+  randommood: §3Sleepy
+  randomlocation: §9Mall
+  randomobject: §3Bottle
+  randomcolor: §9Blue
+  randomeffect: §bFast
+  msg: §aSiennacat §7ate a §3Bottle§7, making them feel §3Sleepy§7.
+b01ff824-d2f6-4ce0-8cf2-4db61cda341a:
+  randommood: §4Angry
+  randomlocation: §9School
+  randomobject: §3Empty Bottle
+  randomcolor: §eYellow
+  randomeffect: §eLoud
+  msg: §aElephantus §7screams as loud as a §3Empty Bottle§7.
+  PlayerAnimal: Deer
+  FursonaName: Snow
+  FursonaGender: Male
+  FursonaSpecies: Fallow Deer
+  FursonaBodyType: Anthro, Medium sized
+  FursonaColors: Brown, White, Blue
+  FursonaBio: I don't know, shy cute deer boie eksd
+5410f77d-d550-4290-b624-739d137b75b3:
+  PlayerAnimal: §4(づ◕ω◕)づ
+2873f676-fd0e-4fa9-8a1f-16b2d1135999:
+  PlayerAnimal: Fox
+  FursonaName: Vol
+  FursonaGender: Male
+  FursonaSpecies: Fox
+  FursonaBodyType: Anthro
+  FursonaColors: Orange, white and black with teal accents and one yellow eye
+  FursonaBio: I am a fox, that is all
+21d5706d-8304-4e3f-b248-335b8fda672c:
+  PlayerAnimal: Dragon
+a1e95fee-8cb7-4a11-af2a-915c8b457848:
+  PlayerAnimal: Vulpes Vulpes
+  PlayerSmell: The only gay person that no one wants to smell.
+0c58bfcd-fd16-4714-b62b-00b08c1f7c96:
+  PlayerAnimal: Crow
+8d7e622d-3ad0-4ad1-b3d4-30794e785e3d:
+  PlayerAnimal: Talos
+ee63f5bd-9a67-4499-a5ae-8e61ef109282:
+  PlayerAnimal: Kitty
+  PlayerSmell: pain, suffering and medical bills
+70d16f2e-0095-4457-9a67-8a348f67974f:
+  PlayerAnimal: Cat
+03c833c8-4f92-48df-a26f-3820d78d4a1b:
+  PlayerAnimal: Cat
+71338272-24e2-4266-9e92-6fc9ff543d94:
+  PlayerAnimal: Fox
+82e65478-c7b9-4ba1-af74-de5c214532bd:
+  PlayerAnimal: Hyena
+  PlayerSmell: hyena
+0cf2f021-246e-4211-8b02-9a21e814170f:
+  PlayerAnimal: otter
+2170d642-9d5b-4817-8c5b-2e9037e6541b:
+  PlayerAnimal: fox
+1aa7a7a5-8587-4566-9af7-9e7f91b14022:
+  PlayerAnimal: jackalope
+3e059612-7316-4950-bc16-85e52bdae611:
+  PlayerAnimal: Wolf
+6d91d6ae-94d9-4816-bde2-4c065a47a134:
+  PlayerAnimal: Lucario
+378b5a50-4e1a-4dcb-b2df-d3192667c7ed:
+  PlayerAnimal: rabbit
+80c774ef-76bb-48ca-948c-738300889452:
+  PlayerAnimal: Spaceous astronimus draconicus
+  FursonaBio: zirky is a derg owo
+  FursonaBodyType: slim with little muscle
+  FursonaSpecies: dragon
+  FursonaGender: male
+  FursonaColors: black blue purple and white
+  FursonaName: Zirky
+  PlayerSmell: dirty laundry
+618902fb-05d1-4483-9af4-981fae2bbe7c:
+  PlayerAnimal: Moopian
+14fec9fc-29ea-4e8c-a430-0905054ed1c5:
+  PlayerAnimal: OwO
+  FursonaBio: 'Fox-Dragon hybrid / kind, affectionate and shy / Likes to draw and
+    watch the night sky / loves strawberries and hugs ^^ / Ref & Art: https://imgur.com/a/vLVSbUR'
+  FursonaName: Andromeda
+  FursonaGender: Male
+  FursonaSpecies: Fox-Dragon Hybrid.
+  FursonaBodyType: Anthro / Feral
+  FursonaColors: Dark purple, purple, white and blue-purpleish colors.
+  randommood: §eAnnoyed
+  randomlocation: §9School
+  randomobject: §3Bed
+  randomcolor: §6Orange
+  randomeffect: §bFast
+  msg: §aAkqFox §7felt §eAnnoyed§7, so they poked a §3Bed
+688a603b-278d-4878-b2d1-9e9ce4fa160a:
+  PlayerAnimal: big tiddy goth gf
+c1a048d2-443c-41b7-8962-127a6a9ca3b8:
+  PlayerAnimal: Boi
+2f9eb7b0-665f-4e9d-9b87-25df529a833a:
+  PlayerAnimal: Husky
+  FursonaBio: a tiny boy with much fluff
+  FursonaName: Biscuit
+  FursonaGender: boyo
+  FursonaSpecies: doggo
+  FursonaBodyType: chunky
+  FursonaColors: brown n white
+  PlayerSmell: stink boy
+fa0b03ce-62d0-474e-b04e-e20e3964dfe9:
+  PlayerAnimal: §fY§bi§1f§bf§f!
+  FursonaName: §b§lB§f§ll§b§lo§f§lg§b§lg§f§lo
+  FursonaGender: §b§lM§f§la§b§ll§f§le
+  FursonaSpecies: §b§lW§f§lo§b§ll§f§lf
+  FursonaColors: §b§lBlue, §7§lGrey, §f§lWhite
+  FursonaBodyType: §b§lA§f§ln§b§lt§f§lh§b§lr§f§lo§b§lp§f§lo§b§lm§f§lo§b§lr§f§lp§b§lh§f§li§b§lc
+  PlayerSmell: §bY§fi§bf§ff
+  randommood: §bHyper
+  randomlocation: §9Store
+  randomobject: §3Cactus
+  randomcolor: §dPink
+  randomeffect: §bShiny
+  msg: §aBloggo §7saw a §bShiny §3Cactus§7... making them feel really §bHyper§7.
+419133ab-5934-4d15-8ee2-8c8b19b60421:
+  PlayerAnimal: homosapian
+12bc953f-d29d-4c95-bd79-c76cc11eb6b0:
+  PlayerAnimal: I called Cheif, And he said this is it.
+9ecbb899-0f32-4f7c-8093-b45f87ea19fa:
+  PlayerAnimal: xxx is looking over us
+17c7600f-786e-45ba-8e7d-ba65bf2da555:
+  PlayerAnimal: Fox
+e538db0c-edb2-4867-99fb-429bdeae05e4:
+  PlayerAnimal: folf
+51c05636-8c97-4df5-99eb-0be69fe61c97:
+  PlayerAnimal: bullyhunter77
+  FursonaName: Sir Izen The Radiant
+  FursonaGender: Male
+  FursonaSpecies: PineLion (Lion Porcupine hybrid)
+  FursonaBodyType: Anthro, typical paladin bodytype; muscular but not bulky
+  FursonaColors: Golden brown fur, dark brown quillmane and tail tuft
+  randommood: §bHyper
+  randomlocation: §9Pet store
+  randomobject: §3Bag
+  randomcolor: §eYellow
+  randomeffect: §bFlying
+  msg: §aQuillingMeSoftly §7went to a §9Pet store §7to buy some §3Bags§7.
+  PlayerSmell: QuillingMeSoftly
+d82ba0ea-8a0c-467a-b8f5-dfbf75905879:
+  PlayerAnimal: chinchilla
+  FursonaName: Mido Higashikata
+  FursonaGender: Male
+  FursonaSpecies: Chinchilla
+  FursonaColors: pink/lavender/red
+  FursonaBio: Just your average, friendly, fluffy chinchilla, always up for hugs!
+  FursonaBodyType: Anthro
+53d165a8-95dd-4dd2-9268-2358257f588d:
+  PlayerAnimal: Hamster Pig
+9b7aa4d3-286b-4af4-bc0f-a7a93d6d3c88:
+  PlayerAnimal: Fox
+b90a550b-8c4c-4692-be62-cbd6a69b6cbc:
+  PlayerAnimal: Badger-Dog
+6bff532f-0dfc-4dca-b982-80364c91e872:
+  PlayerAnimal: couch
+d2ec0c27-71f0-45f2-80e6-06a7037dae2b:
+  FursonaSpecies: Lucario
+  FursonaGender: male
+  PlayerSmell: a person stuck in a male lucario's body!
+  PlayerAnimal: Lucario
+98b70ed2-1229-4906-9d4d-28f7cae65583:
+  FursonaName: Xogo
+  FursonaGender: Male
+  FursonaSpecies: Red Fox
+  FursonaBodyType: Thin
+  FursonaColors: Auburn, Lime Green, Dark Blue, White
+  FursonaBio: Hello! My name is Xogo Owca! I love making new friends, and telling
+    jokes.
+9193711a-487c-4d1b-8cda-31aa74f8ce37:
+  randommood: §3Sleepy
+  randomlocation: §9Fastfood place
+  randomobject: §3Bottle
+  randomcolor: §dPink
+  randomeffect: §5Crazy
+  msg: §aNeon_Umbreon0W0 §7felt §3Sleepy§7, so they poked a §3Bottle
+  PlayerAnimal: wolf
+  PlayerSmell: wolf musk
+b7cae3f2-2b46-4f13-825e-950b445b44e8:
+  FursonaBodyType: ripped af
+201c5202-bca6-4190-8d46-d22927a6d1c5:
+  FursonaName: Henzer
+b6951703-8055-44c6-a373-e68bfcc71c6a:
+  FursonaSpecies: bull
+  FursonaName: Karl
+  FursonaBodyType: buff
+  FursonaGender: male
+fbdcf934-a3a4-412a-94f6-85489dc2a35f:
+  FursonaName: Markski
+  FursonaGender: Male
+  FursonaBodyType: Anthro
+  FursonaColors: Light and Dark gray, blue eyes, black hair
+  FursonaSpecies: Snow Leopard
+  FursonaBio: Snow Leopard from Argentina.
+0a9223d3-44ba-41ff-b1a1-ffee6036498a:
+  FursonaGender: female
+  FursonaBodyType: anthro
+  FursonaColors: mint
+  FursonaName: Chou
+  FursonaSpecies: fox
+  PlayerSmell: mint
+d4e6736b-95f2-48d5-94ee-5fcce7bf514e:
+  FursonaName: Seth
+  FursonaGender: Male
+  FursonaBodyType: Slim and Tall
+  FursonaColors: LightGrey, White, DarkBlue, NeonGreen.
+  FursonaSpecies: Wusky, (Wolf Husky Hybrid.)
+  PlayerSmell: Coffee uwu
+d1b5bb3e-f43f-48e5-9da2-18a469579d24:
+  FursonaName: Kina
+  FursonaGender: female
+  FursonaSpecies: Terrior
+  FursonaBodyType: little, skinny child
+  FursonaColors: Brown fur with cream accents. Has green left eye and SLIGHTLY teal-er
+    right.
+  FursonaBio: Kina is a small, nine year old child. She is an orphan and doesn't know
+    her parents, but doesn't care much for finding them. She's been wandering the
+    city on her own. She is very narcissistic and egotistical.
+  PlayerSmell: dirt
+a351193f-79c8-4ddf-a8c0-5c881999a536:
+  FursonaName: markyparky
+  FursonaBodyType: cuddly
+  FursonaColors: grey red black
+  FursonaSpecies: hellhound
+  FursonaGender: male
+  FursonaBio: idk what to put here
+e7860688-c7bf-4f6b-bd1b-8d4e490252dc:
+  randommood: §5Confused
+  randomlocation: §9Fastfood place
+  randomobject: §3Computer
+  randomcolor: §dPink
+  randomeffect: §5Crazy
+  msg: §aworldofnerds §7is now a §5Crazy §3Computer§7.
+243314a2-ac00-4313-80d8-04ac067a0483:
+  FursonaGender: male
+  FursonaSpecies: Ice Fox
+  FursonaName: Miki
+  FursonaColors: Blue White and Black
+  FursonaBodyType: Feral
+  PlayerSmell: blueberries
+116f1a0b-b03b-4fb6-824d-e74563b0aabe:
+  randommood: §aHappy
+  randomlocation: §9Fastfood place
+  randomobject: §3Bed
+  randomcolor: §9Blue
+  randomeffect: §8Slow
+  msg: §aC0D3Gl1CH §7found a random §8Slow §3Bed§7.
+  FursonaBio: Not set
+  FursonaName: Tass
+  FursonaSpecies: Dutch Angel Dragon
+  FursonaGender: Male
+  FursonaBodyType: Anthro
+  FursonaColors: Body - Black / Belly,face,rightleg - white / Markings - NeonOceanGreen
+  PlayerSmell: ᗪㄩㄒ匚卄 卂几Ꮆ乇ㄥ ᗪ尺卂Ꮆㄖ几
+c2fe18ad-5100-442a-87c5-0a0b856b60d0:
+  PlayerAnimal: dragon
+  PlayerSmell: cookies
+  randommood: §4Upset
+  randomlocation: §9Home
+  randomobject: §3Bag
+  randomcolor: §eYellow
+  randomeffect: §8Slow
+  msg: §aDragonous3 §7saw a §8Slow §3Bag§7... making them feel really §4Upset§7.
+8206860b-bd81-4939-acc5-69cb9ce0c317:
+  FursonaBodyType: Smol?
+  FursonaName: Bubbles
+  FursonaGender: Non-Binary
+  FursonaSpecies: Original Species! (Haven't picked a name yet!)
+  FursonaBio: Working on species still! Sorry!
+  FursonaColors: Not Decided!
+  PlayerAnimal: Pumpkin Bitch
+  PlayerSmell: Pumpkin
+b463d8a4-e048-48bc-9c1f-fb4e9e79043b:
+  PlayerAnimal: cybertronianfauxx
+  PlayerSmell: bbq
+c9f5cd05-9549-481c-ad89-b78f8e89ab3f:
+  PlayerAnimal: Bunny
+219a8e56-0642-4f2b-942a-da52b5fe123e:
+  FursonaName: Geo
+  FursonaGender: Male
+  FursonaSpecies: Ferret-ish
+  FursonaBodyType: Anthro
+  FursonaColors: Dark greys with a splash of blue.
+250a885d-bfcd-48e2-9072-bb412aaa857f:
+  PlayerAnimal: Mutt
+  PlayerSmell: Mutt
+227eb8ca-31db-4fd9-80cc-a4079c7c4495:
+  FursonaSpecies: lemur
+  FursonaName: Isidore
+5f99a26c-6098-463c-8601-3f0fd45738b3:
+  PlayerSmell: a JT worshipper
+  FursonaName: JoshTiger Lover111
+  FursonaGender: tigerlover
+  FursonaSpecies: Whatever JT wants me to be
+  FursonaBodyType: a big cookie
+  FursonaColors: Orange
+  FursonaBio: i cut myself everyday in order to sacrifice my blood to the one and
+    only JT
+ea1300ab-f245-495f-8f98-8a3f721be98e:
+  FursonaGender: h
+  FursonaName: Quicky
+  FursonaSpecies: bunny
+  FursonaBodyType: slim
+a06e52af-736b-4151-b893-e77c3b8617b2:
+  FursonaName: Bessie
+  FursonaBodyType: Fat, thick, putrid, smelly, hairy
+  FursonaGender: Gendervoid
+  FursonaColors: Pink
+  FursonaSpecies: Cow
+766e0bd7-8f25-45a8-a4f5-f7aba2da7798:
+  PlayerSmell: Vanilla
+  randommood: §1Sad
+  randomlocation: §9Walmart
+  randomobject: §3Light Switch
+  randomcolor: §4Red
+  randomeffect: §5Crazy
+  msg: §aDarkDestinyDrago §7ate a §3Light Switch§7, making them feel §1Sad§7.
+8dafc15d-26fd-4d99-9e9f-da79258f69c4:
+  FursonaSpecies: kitsune
+  FursonaName: Vixie
+  FursonaGender: female
+  FursonaColors: black, grey, purple
+  FursonaBio: Female kitsune with five tails
+  PlayerSmell: existence
+30a3f709-171b-4193-81a4-6111463262be:
+  FursonaColors: Red & Green
+  FursonaGender: Boi
+  FursonaSpecies: Foxxo
+  FursonaBio: Lil' Foxxo
+  FursonaName: Flamepaws
+  FursonaBodyType: 'Yes'
+  PlayerSmell: No u
+  PlayerAnimal: Foxxo
+258ff507-afbf-415c-8ceb-58933b6646b0:
+  randommood: §1Sad
+  randomlocation: §9Music store
+  randomobject: §3Toaster
+  randomcolor: §4Red
+  randomeffect: §bFlying
+  msg: §aFritzThSmolMouse §7has a §bFlying §3Toaster§7 head.
+  PlayerSmell: a mouse(a snacc)
+  PlayerAnimal: mouse
+ac9dc326-5d10-487a-a005-75ccab4c6ef2:
+  FursonaBio: not actually a furry but hi
+  FursonaSpecies: Doomer
+747ecfda-5dc5-46a9-82c1-a8c87bedb68c:
+  randommood: §4Angry
+  randomlocation: §9Large rock
+  randomobject: §3Phone Charger
+  randomcolor: §5Purple
+  randomeffect: §eLoud
+  msg: §aRainbowSong §7saw a §5Purple §3Phone Charger§7... and really didn't like
+    the color.
+803bdaf0-d97e-4b2c-bad4-c38e95325c16:
+  PlayerSmell: dyke vibes
+833e9d9b-b468-4af0-9b7e-4ff288efe64b:
+  PlayerSmell: bacon
+09c0bcfa-80a6-4311-b2c8-5063ddb9b4d9:
+  PlayerSmell: coochie
+  PlayerAnimal: free coochie, ma'am?
+  FursonaName: Bella
+  FursonaGender: nonbinary
+  FursonaSpecies: cat
+  FursonaColors: pink and blue
+  FursonaBodyType: short and chubby
+927b850f-ece7-4e64-936c-1f205a9de248:
+  PlayerSmell: grease
+81a609f5-331f-4f49-a022-9fc5ea4f3c99:
+  FursonaName: Arath
+  FursonaGender: Male
+  FursonaSpecies: Noceru
+  FursonaBodyType: Taur
+  FursonaColors: Warm Browns
+  FursonaBio: A Mess
+8357efe8-49b0-4e95-bcec-3970eee77692:
+  FursonaBodyType: Slim
+  FursonaSpecies: Falcon
+  FursonaName: Spectre
+  FursonaColors: Black and Green
+  FursonaGender: Male
+  FursonaBio: Just an Avian femboy, don't mind me. ^^
+ce17045f-f64c-4533-8bfe-7aaf0ead0995:
+  PlayerAnimal: cat
+09d50ee1-1af0-4df0-bf55-9cd8bac0a12a:
+  PlayerAnimal: Otter
+  PlayerSmell: Chocolate
+  FursonaSpecies: Otter
+  FursonaGender: Male
+  FursonaName: Cookie the Otter
+  FursonaBodyType: Lanky boi
+  FursonaColors: Brown and White fur, Blonde hair
+  FursonaBio: Homoflexible boyo who likes clams uwu
+  randommood: §4Upset
+  randomlocation: §9Walmart
+  randomobject: §3Chair
+  randomcolor: §6Orange
+  randomeffect: §bFast
+  msg: §aHumanaurora §7has a §bFast §3Chair§7 head.
+c963db70-6fbc-42e8-ba71-a8f859673a9d:
+  PlayerAnimal: shark
+ff7b8400-bdc9-4c21-bf37-8f97e24b1d6a:
+  PlayerSmell: Burnt fur and oil
+  FursonaName: Naxal
+  FursonaGender: Female
+  FursonaSpecies: Equine
+  FursonaColors: Grey coat, green mane with purple tips.
+  FursonaBodyType: Feral
+  FursonaBio: Just a silly horse who loves gaming :3
+  PlayerAnimal: Horse
+  randommood: §bHyper
+  randomlocation: §9Music store
+  randomobject: §3Lamp
+  randomcolor: §6Orange
+  randomeffect: §bFast
+  msg: §aMelissa_Shard §7saw a §6Orange §3Lamp§7... and liked the color.
+f0b3572f-c6d9-4fac-8865-daf77ac6583e:
+  FursonaName: Merlin
+  FursonaSpecies: Samoyed
+  FursonaBodyType: Feral
+  FursonaColors: Various shades of White
+  FursonaBio: A big fluffy dog with strange psychological properties.
+  FursonaGender: Male
+  PlayerAnimal: Samoyed
+  PlayerSmell: strawberries and... aged wood...?
+656a3618-b9cd-4a24-ab17-8359d2161ffc:
+  FursonaName: Fenrir The Wolf
+  FursonaGender: Male
+  FursonaSpecies: Wolf
+  FursonaBodyType: Anthro
+  PlayerSmell: shampoo
+75c5eec4-6b42-49cc-9993-7e6afbed1d46:
+  PlayerSmell: ligma
+0818caa1-ce19-447f-8520-75d22e526bba:
+  PlayerSmell: ballsack
+  FursonaBio: just a cubby waffy
+  FursonaBodyType: fit
+  FursonaColors: brown and red
+  FursonaSpecies: wolfy
+  FursonaName: kero
+  FursonaGender: male
+d86288b6-e717-4214-b98f-46e3bebb94ca:
+  PlayerSmell: Crispy Toast
+1e9cac00-dcf3-449b-b02b-c2da7c882e09:
+  PlayerSmell: something fierce
+  FursonaName: Āðexe
+  FursonaGender: female
+  FursonaSpecies: Velociraptor
+  FursonaBodyType: Feral
+  FursonaColors: Naturally-scaled
+  FursonaBio: She's a hungry raptor~
+513e6706-b9f9-487b-b76c-f9fb9dc19846:
+  PlayerSmell: Carrots
+  PlayerAnimal: FluffyBunnyNep
+c8113510-f003-4f5a-87ae-63ab33035db5:
+  PlayerSmell: Must
+  FursonaName: Mohawk
+  FursonaGender: Male
+  FursonaBodyType: Thiccer than a Snicker
+  FursonaColors: Lime green, Blue, Pink
+  FursonaSpecies: Monkey
+  FursonaBio: Mohawk loves to party and has a scat fetish uwu
+16571fc5-fb78-41ca-bf0e-388c6890748e:
+  PlayerSmell: Riverwater
+  PlayerAnimal: Oshawott
+  FursonaName: Oshy
+  FursonaGender: Male
+  FursonaBodyType: Anthro/Feral
+  FursonaSpecies: Oshawott
+  FursonaColors: Original Oshawott Colors
+  FursonaBio: I usually am either a Feral, or I live with others. I never live alone.
+    I try to be nice, but if u make me angry, then you'll get it *X3*
+  randommood: §4Upset
+  randomlocation: §9Zoo
+  randomobject: §3Toaster
+  randomcolor: §6Orange
+  randomeffect: §eLoud
+  msg: §aKadafia §7turned §6Orange §7when they saw a §3Toaster
+279282c2-2889-48fc-aef7-6d5f9e141c22:
+  PlayerAnimal: ttobbe123 cobblestone
+4d2943bf-1cb8-4221-8e2e-7e891e9f22a5:
+  PlayerSmell: Vodka and disappointment.
+3b3dd6f3-272c-471f-af88-397fbf56cf85:
+  FursonaName: Skyler Malilou
+  FursonaGender: Male
+  FursonaSpecies: Fruit Bat
+  FursonaBodyType: anthro
+  FursonaColors: Orange and White
+  PlayerSmell: Mangoes
+667aaaf2-ac76-4957-8d6a-7b5d15faa886:
+  PlayerSmell: homeless man with oldspice deoderant
+4de1cc36-8340-4b8b-b40a-cdf40fe35a5a:
+  PlayerSmell: Sewer Rat with horrible armpit odor
+  FursonaName: Ophelia
+  FursonaGender: None
+  FursonaSpecies: Wylrim (Mine)
+  FursonaBodyType: Winged
+  FursonaColors: purple, white and black
+  FursonaBio: o k a y
+  PlayerAnimal: Sewer Rat
+6fcff4b9-6849-4632-b9ef-1f87e47a890e:
+  PlayerSmell: a guy that hasnt showerd in a while
+4ee3ebd2-fe60-405c-a86e-f74c31d9f7b3:
+  PlayerSmell: very musky UwU
+  PlayerAnimal: Husky
+  FursonaSpecies: Husky
+  FursonaName: Susho
+  FursonaGender: Male
+  FursonaBodyType: Tall. Not too big or small
+  FursonaColors: Black and white
+  FursonaBio: big boi o3o
+bfcbcfb1-7b60-4317-a85a-85b66211477a:
+  PlayerAnimal: Wusky (Wolf/Husky)
+04140068-a424-4b94-9af8-9b4247d3202d:
+  PlayerAnimal: Fox
+  PlayerSmell: Tropical Shampoo
+3eec5b62-fae4-4029-91dc-27bb80a23bda:
+  PlayerSmell: vanilla
+2a74d14d-7d85-4375-86b4-20f5c94e8e8b:
+  FursonaName: Mason
+  FursonaGender: Male
+  FursonaSpecies: Feraligatr (Pokemon)
+  FursonaBodyType: Chubby
+  FursonaColors: Red, Blue, Yellow
+  FursonaBio: Mason is a lovable and optimistic Pokemon that loves everything!
+aeedc364-515c-45f4-b0e0-1b8579b54537:
+  PlayerSmell: Orangges
+  FursonaColors: blue aqua
+  FursonaName: BlueCyberTiger
+  FursonaGender: male
+  FursonaSpecies: tiger
+  FursonaBodyType: muscular
+386f1730-61a2-4dc8-ad63-3e687eda47cf:
+  PlayerSmell: mistakes
+  FursonaBodyType: feral
+  FursonaGender: herm
+  FursonaSpecies: kittydog
+  FursonaColors: white
+  FursonaBio: a kickass "kittydog" that will eat your ass
+  FursonaName: Fluff
+  PlayerAnimal: wolf
+b3539e33-50e3-41ae-93ff-870eb6ee9bd1:
+  PlayerSmell: Ho ho ho ha ha, ho ho ho he ha. Hello there, old chum. I’m gnot an
+    elf. I’m gnot a goblin. I’m a gnome. And you’ve been, GNOMED’
+  PlayerAnimal: Bunny
+  FursonaName: Hiro
+  FursonaSpecies: Rabbit/Bunny
+  FursonaBodyType: Lean
+  FursonaGender: male
+  FursonaColors: peachy orange
+  FursonaBio: is an artist bun ùwú
+025e1eff-6ac7-4190-b961-d1e6171b07fd:
+  PlayerSmell: Bacon
+4b32972d-01de-450b-b73f-305c0aae35f3:
+  randommood: §aHappy
+  randomlocation: §9Tree house
+  randomobject: §3Plate
+  randomcolor: §eYellow
+  randomeffect: §bFlying
+  msg: §aAcerooo §7felt §aHappy§7, so they poked a §3Plate
+  PlayerSmell: seeds
+f29e7b0b-818e-4dd2-8eb0-407dfd4465a3:
+  PlayerSmell: Skunk oil and soot
+ce44950f-4f14-4c68-a2c2-224f813f5205:
+  PlayerSmell: Sativa
+071d265d-cfab-440f-b266-6fdf5e470c53:
+  PlayerSmell: Candycane!
+0e24ef5f-1b4a-4f96-8272-82541bf2c6d4:
+  PlayerSmell: fresh baked cookies!
+ad0cf5d8-164d-4f9a-9113-d938730f7053:
+  PlayerSmell: Vaporwave and booze uwu
+  PlayerAnimal: Shiba Inu
+  randommood: §4Angry
+  randomlocation: §9Mall
+  randomobject: §3Light Switch
+  randomcolor: §dPink
+  randomeffect: §bFlying
+  msg: §aShiibaGunner §7got too §4Angry§7, so they started throwing §3Light Switchs
+    §7at a §9Mall§7.
+5e4bb970-6c49-486a-a114-6c1b10eb7efe:
+  PlayerSmell: like a little bitch
+4319c300-e8de-4238-8481-145cea2521f2:
+  PlayerSmell: like cake
+0740e840-a5a4-4eeb-b367-cfe5e2dabd4d:
+  PlayerSmell: pineapple
+14d40950-6e74-4664-88e4-0609e4ee3f60:
+  PlayerSmell: blueberries
+a760d36c-d6e3-4407-a3cc-59d15b4fc746:
+  FursonaName: Dak
+  randommood: §aHappy
+  randomlocation: §9Australia
+  randomobject: §3Keyboard
+  randomcolor: §dPink
+  randomeffect: §bFast
+  msg: §aDakkoboy §7went to a §9Australia §7to buy some §3Keyboards§7.
+eb9bf379-eb68-457a-a377-6ec9f2347e4c:
+  PlayerAnimal: Bear
+a5b039ec-5823-4774-a5f7-5ef783a797cd:
+  PlayerSmell: 14 werewolves
+  PlayerAnimal: Lion
+51386eea-2bb0-453f-977a-a8ddea332c72:
+  FursonaName: JayTheFox
+  FursonaGender: Male
+  FursonaSpecies: Fox
+  FursonaBodyType: Anthro
+  FursonaColors: Brown Black White
+88ef8717-cd94-4ca0-a91f-e1d74315237a:
+  PlayerSmell: Aracnoide619
+816e5d2b-459a-46dc-a7d4-bb2e4a3ecd77:
+  FursonaName: Avedotya Apollonariya
+  FursonaGender: Hermaphrodite
+  FursonaSpecies: Felkin-Sergal hybrid
+  FursonaBodyType: 6'8", Thickset with curvy hips and feminine features
+  FursonaBio: A Sergal/Felkin Hybrid, this creature seems somewhat mysterious
+ebff5ac7-c80f-463c-b4a7-70004de52031:
+  PlayerAnimal: Wolf
+d73fcc89-6676-47ab-b622-bb6b1b429906:
+  PlayerAnimal: Fox
+7912d922-885e-434e-b4bb-1419b6c836ec:
+  FursonaGender: Male
+  FursonaBodyType: Anthro
+  FursonaSpecies: Foxcat
+ad74f601-3bfe-4daa-9c08-f12c2a167c28:
+  PlayerAnimal: Lynx
+2cb2aa17-411a-4452-8be4-f3aa441752ac:
+  FursonaName: Telephone
+  FursonaGender: Genderless
+  FursonaSpecies: Dutch Angel Dragon
+  FursonaColors: Brown,Black,White
+  FursonaBio: The first Dutch Angel Dragon to exist
+a0f5beca-baa6-477f-83e4-a8fe4bf887a9:
+  PlayerAnimal: Red Panda
+  PlayerSmell: cherries
+  FursonaName: Ace
+  FursonaGender: Secret o3o
+  FursonaSpecies: Red Panda
+  FursonaBodyType: Anthro
+  FursonaColors: Black, Grey, White and Purple
+  FursonaBio: Local nommer that will nom everything o3o
+ba541c55-73f3-42b2-9f06-061b547914a4:
+  PlayerAnimal: Floral Dragon
+  PlayerSmell: lavender
+b91305d8-3dd6-4538-81c6-5dabc20296c2:
+  PlayerAnimal: gay snake
+  PlayerSmell: cum
+8410a70a-68c2-4c40-b300-090462dad8fd:
+  PlayerAnimal: Protogen
+  PlayerSmell: fuck you
+ac781a28-f2dd-4904-82f3-81b95cc4a831:
+  PlayerAnimal: ripper
+263fea59-56f7-461f-947f-af8ca7c3d3ab:
+  FursonaSpecies: Wusky
+  FursonaColors: Pink
+  FursonaGender: Male
+  FursonaBodyType: Chubby
+  FursonaName: Rafey
+  PlayerSmell: Wendy'sFrenchFries
+1e394208-e0ef-4cde-a9f7-4811b8fe6842:
+  PlayerAnimal: Attackhelicopter
+  PlayerSmell: Burning Arabs
+78a94bf3-0c41-4c14-932f-e5c1f7b9484c:
+  PlayerAnimal: Darkslaye
+  FursonaGender: Darkslaye
+6bcb150c-4458-45ce-b0ab-a39a07223fd9:
+  PlayerSmell: CrispyJews
+cfdb8d19-e4f4-477e-9135-320c31e195b1:
+  FursonaSpecies: Furred Dragon
+  FursonaGender: Male
+  FursonaBodyType: Feral
+  PlayerSmell: Derg Milk
+8c8df525-35e5-429a-aece-d881b0c4b52c:
+  FursonaName: Omega Klein
+  FursonaGender: male (femboy)
+  FursonaBodyType: 5"8', Slim and slightly muscular, very effeminate
+  FursonaColors: White, gray, violet/purple
+  FursonaBio: 'WIP: For now all I''ll say here is that Klein is a hybrid between a
+    snow leopard and a wyvern'
+  PlayerSmell: Roses and Blackberries
+6bea002f-0826-4804-bcbd-27acb79599fd:
+  FursonaName: Brandy
+  FursonaGender: Female
+  FursonaSpecies: German Shepherd
+  FursonaBodyType: Short n' thigg
+  FursonaColors: Brown, brown, and brown bit a bit o' blue and black
+  FursonaBio: Doggerpups on twitter woop
+  PlayerSmell: Strawberry Sorbet
+  PlayerAnimal: Doggo
+18e69c13-e0cd-426b-bc64-e5d466b797dc:
+  PlayerAnimal: RedFox
+0e3e47f3-3be1-44d1-acbe-9767b994945a:
+  FursonaName: Kaz Sparkledawg
+  FursonaGender: Male
+  FursonaSpecies: Canine - Husky
+  FursonaBodyType: Curvy -- Feminine
+  FursonaColors: Chocolate -- Blueberry -- Purple
+  FursonaBio: Extremely gay, extremely sexual. Lewd and proud husky butt. RPs, n00dles
+    and moar. Bark up my tree any day, woof woof!
+d060c459-b6fa-41f7-98d3-7ee162647712:
+  PlayerAnimal: Human
+  PlayerSmell: Like a Human Who Needs a Shower
+  FursonaBio: A human who needs a life
+  FursonaGender: Male (Biologically)
+  FursonaBodyType: basicly not fat not thin, idk 5"8
+  FursonaSpecies: Human
+  FursonaColors: CockAsian (White)
+  FursonaName: Kurai
+713e1fe5-2d69-4c39-94a4-9a8c93113316:
+  PlayerAnimal: White Saber-Tooth Tiger
+  PlayerSmell: frosty air
+e12d1a8b-b603-4d4f-8950-942fb9bacdfc:
+  PlayerSmell: boxer bulge
+c6186063-138e-44ef-9788-4f163cfc8bf8:
+  FursonaName: Lati
+  FursonaGender: Herm
+  FursonaSpecies: Latias
+  FursonaColors: Green/White
+  FursonaBodyType: Feral chubby
+  FursonaBio: Lati is a hibryd latias , she was male before and genderbent in a laboratory
+    and now she's escaped , she has chocolate addiction and likes to cuddle people
+  PlayerSmell: Pudgy green Latias
+  PlayerAnimal: MisfitLunatic
+c274562a-c5ae-41bf-8e07-2f9d58e5792b:
+  PlayerSmell: Burnt Wood
+  FursonaSpecies: FireFloof
+275583aa-7176-4085-aef5-1a7593d70fa4:
+  PlayerSmell: lusty lycanroc
+  PlayerAnimal: Lycanroc
+  FursonaBodyType: Feral
+  FursonaSpecies: Lycanroc
+  FursonaColors: White, Tan, Brown
+  FursonaName: Sasha Notices
+  FursonaGender: Pangender
+  FursonaBio: A lusty Lycanroc with sylveon-style ribbons.
+e6cf27e2-086a-48c5-bc02-b02d25c65157:
+  PlayerSmell: fresh n' fruity
+ac1aef02-96a6-4701-87c7-bbdc5fe158f7:
+  PlayerAnimal: ¿
+  PlayerSmell: wet dog.
+  FursonaSpecies: Husky
+  FursonaGender: Male
+  FursonaColors: Blue/White (green/blue eyes)
+  FursonaName: Syrph
+  FursonaBodyType: Feral/Anthro
+  FursonaBio: I haz fish.
+94c5fc4d-2310-42fc-9e86-8a775405083a:
+  PlayerSmell: Red panda floof and that lingering smell of sausage.
+  FursonaName: Paradox
+  FursonaGender: male
+  FursonaSpecies: red panda
+  FursonaBodyType: chubby
+  FursonaColors: red and black
+  FursonaBio: a boring looking red panda, but he's a dimensional traveler.
+a51e2635-5b0c-4395-9760-5374e4b53bf3:
+  PlayerSmell: Sage
+  PlayerAnimal: Jackal
+8cf50b7d-b2b2-45e8-a83a-84c71c2e69f8:
+  PlayerSmell: like Sasha_Notices
+7ace6e52-d2a8-4464-8fe2-cee7e6eb56b8:
+  PlayerSmell: Blood
+13c3cdd6-08cd-45d9-ba2a-0ea081e43fc5:
+  PlayerSmell: msi x470 gaming plus motherboard
+8dc7ca7a-5803-4558-bc92-038de081f92b:
+  PlayerSmell: Fish
+  PlayerAnimal: Snake
+bf7399bb-bf59-4bb8-8b04-f246f3f430c3:
+  PlayerSmell: '*snaps neck to look 180 degrees behind me* WHO SNIFFED MEH'
+00000000-0000-0000-0009-00000aba2309:
+  FursonaName: Diego WildDog
+  FursonaGender: Male
+  FursonaSpecies: African Wild Dog
+  FursonaBodyType: Anthro
+  FursonaColors: Bright Red, Sky Blue, Purple, Hot Pink, Black, White, Gold
+  FursonaBio: Chi! I'm the King of WildDogs!
+aaa8fc66-b665-4604-8c3a-1b7914a32efe:
+  PlayerSmell: vodka
+cbf35bba-4993-46be-b180-8100d335a9b7:
+  FursonaName: Aito
+  FursonaGender: Male
+  FursonaColors: Blue/White
+  FursonaBodyType: Slim
+  FursonaSpecies: Mystic Wolf
+  FursonaBio: I'm a calm and vivid Lil wolfie
+  PlayerAnimal: Canine
+a66fd6d0-4043-49a9-8855-78ee8aea8340:
+  PlayerAnimal: Shiny Mew
+  PlayerSmell: Blueberries
+  FursonaName: Lou Snowfang
+  FursonaGender: Varied
+  FursonaSpecies: Shiny Mew
+  FursonaBodyType: Feral/Semi-Feral
+  FursonaColors: Blue, Red, Black
+  FursonaBio: A wild pokemon. Hates capture. Is holding an Action Replay.
+  randommood: §5Confused
+  randomlocation: §9Texas
+  randomobject: §3Plate
+  randomcolor: §6Orange
+  randomeffect: §eLoud
+  msg: §aMewMMG §7turned §6Orange §7when they saw a §3Plate
+6ca528a8-c440-481a-a07c-cef26ce64b45:
+  FursonaName: Blizzard
+  FursonaGender: Male
+  FursonaSpecies: Snowy owl
+  FursonaColors: Black, white
+  FursonaBio: Detective and interrogator with the ability to temporarily disable anyone
+    from lying.
+  FursonaBodyType: Arms, wings on the back
+5109e743-756a-4aee-b0a6-2d4c8df00af4:
+  FursonaSpecies: Fox
+  FursonaColors: Orange White
+  FursonaGender: Male
+  FursonaBio: Babyfur orange and white fox real age 17 baby age 2 likes his green
+    pacifier
+2b1ec1cb-661d-40ef-8f4e-f3206d20eea0:
+  FursonaBio: God damn. Shit the bed!
+47bcbf34-fae2-4c36-975e-38552ae382ae:
+  PlayerSmell: Cherry
+  FursonaSpecies: Cat Dragon
+  FursonaColors: Black and White
+  FursonaGender: ???
+  FursonaName: Onyx
+  FursonaBodyType: THICC
+  PlayerAnimal: Cat Dragon
+0a6f4e0a-f1cd-4e0d-b4c5-9ac083e9de7b:
+  PlayerSmell: Lemon
+  PlayerAnimal: the kind that breathes
+6319118d-d744-44a6-b134-064a1903b7d1:
+  PlayerAnimal: Dog
+  PlayerSmell: mint candy~
+  FursonaBio: Cosmodrome_
+ef550d3f-25d6-4cb4-b1db-ff808271b037:
+  PlayerSmell: Metal and Musk
+  FursonaName: Casper Colorlight
+  FursonaGender: Male
+  FursonaSpecies: Folf
+  FursonaColors: White, Gray, and Black
+  FursonaBodyType: Skinny Boi but F l u f f y
+  FursonaBio: He's just a cuddly folf boi that wants to spend time with anyone uwu,
+    and drink lots of milk
+  PlayerAnimal: A Stupid Folfo
+b30c368d-a7c7-403b-87da-e08420ebe622:
+  PlayerSmell: pay 2k participation fee
+  PlayerAnimal: Maollanka
+98cba65f-f770-4a07-ad51-1e6071702967:
+  PlayerSmell: Spacedust, Cotton Candy, and Gasoline.
+e37105a7-c40e-4e81-b813-b5212f1f1210:
+  FursonaSpecies: Wolf
+  FursonaBio: Certified snuggle monster
+  FursonaBodyType: anthro
+  FursonaColors: Grey And Purple
+  FursonaName: Kepplo
+  FursonaGender: He/Him
+a5da3136-bb67-40f3-b23f-7353d0a93d24:
+  PlayerSmell: blueberries
+e0de0d40-58ee-4ec4-a39d-920b7bd7755c:
+  PlayerSmell: strawberries
+1cec1fa1-7fb8-474a-8580-fc9e56617903:
+  PlayerAnimal: globglogabgald
+  PlayerSmell: shit
+  FursonaName: globglogabgalab
+  FursonaSpecies: globglogabgalab
+  FursonaGender: globglogabgalab
+d884ead2-80e6-4cde-b0ed-414415dd873e:
+  PlayerAnimal: Sheep
+  PlayerSmell: Depression
+08bbdc95-7ba8-4c7a-a701-05bd7c91dac2:
+  PlayerSmell: Child abuse
+d0161f34-ea1e-41b6-8511-5e390e060b68:
+  PlayerSmell: Insanity
+  PlayerAnimal: BUN
+73dde6ae-ab03-40db-b56b-879e645d9700:
+  PlayerSmell: Sxlarize
+620a0917-96fd-4450-97ba-24e862040dd3:
+  PlayerSmell: good
+235ccebf-5aa1-4032-a2a4-2ada94852db2:
+  PlayerSmell: S t r a w b e r r i e s
+7ebe0851-adaa-409b-8dd7-b2c120277209:
+  PlayerAnimal: TerraformingMars TerraformingMars
+  PlayerSmell: memes
+d537c3cb-fde8-420c-9fac-73cf2a7eab41:
+  PlayerAnimal: Bird
+  PlayerSmell: Bird
+c8e45bad-4d29-4ac9-82ff-a9766568cb6e:
+  PlayerAnimal: Crimson Chin
+  PlayerSmell: Premium Old Spice Product
+64037fdf-0e29-48a6-821c-c672f80cbbf2:
+  PlayerAnimal: Panzerkampfwagen Ausfuhrer IV H Panzerfuhrer
+  PlayerSmell: Fecal Matter
+f09cd1c9-7f9b-4129-9494-4894b3024f72:
+  PlayerSmell: science!
+20e531dc-fc31-4d14-a2e4-bf7e16611004:
+  PlayerAnimal: anthro fox/bat/bunny/derg
+  FursonaName: Raiden
+  FursonaBodyType: anthro
+  FursonaSpecies: fox/bat/rabbit
+  FursonaColors: dark grey & electric blue
+  FursonaGender: femboy
+  FursonaBio: W.I.P
+  PlayerSmell: chorus fruit
+5f1589b8-76da-4517-9fb2-a896df917ac9:
+  PlayerSmell: Fresh Aluminum and Ciurcut Boards
+  PlayerAnimal: Sergal with an ipad for a face
+  FursonaName: Diamond
+  FursonaSpecies: Protogen
+  FursonaGender: Male
+  FursonaColors: Blue Cyan Navy Blue
+  FursonaBio: Blue protogen w/ grappling hook.
+  FursonaBodyType: tall lil' thicc '6 "2
+2720beaa-b9b8-4bbc-bb75-6fac227500d1:
+  PlayerAnimal: cat
+  PlayerSmell: Candy
+33f597c6-bcd5-4b59-a354-26ec6244f8a2:
+  PlayerSmell: ass
+09a2d879-1b43-40d3-b26b-4eeff35de02a:
+  PlayerSmell: death
+577219bd-eaa3-41a2-a2e1-978efca546c4:
+  PlayerSmell: Ashes
+c0ad14cb-8b94-4d52-a557-6cc5b4e1951c:
+  PlayerSmell: Sie smells like a Skunktaur.
+  PlayerAnimal: Skunktaur
+bbaa9d55-fcf3-4493-beb3-e05728feb1b4:
+  FursonaSpecies: Snow leopard
+  FursonaBodyType: Slim
+  PlayerSmell: blooberries!
+5cddebfb-6405-41d0-aeaf-55e059f5b9c9:
+  PlayerSmell: Candy
+bcc932e1-0ddb-4148-8c82-1a86acfaaef5:
+  PlayerSmell: A fresh bag of novelkeys cream switches, and old spice sports deoderant
+  FursonaName: Diskitt
+  FursonaGender: Male
+  FursonaSpecies: A floofy fox
+  FursonaColors: Black, White, Gold, Crimson, Grey.
+  FursonaBodyType: Tall, skinny. (6"4)
+f25d2767-d934-46c4-9370-51bbd524fc74:
+  PlayerSmell: depression
+64b19a52-b34e-4ac1-969f-40a6d56409ba:
+  PlayerSmell: the band room
+c8f5f5f2-3eef-47ee-90d3-dab1c2b0438c:
+  PlayerSmell: pizza
+  PlayerAnimal: Hypnotic Wolf
+  FursonaBio: I am a Hypnotic Wolf that can fly, as i have wings.
+34ca562b-554a-4186-93b7-edb147d097e2:
+  PlayerSmell: Dirt
+  PlayerAnimal: Wolf
+15aca0ad-d915-4179-ae5c-c6da7296b352:
+  PlayerSmell: depression
+27ed867d-2ce4-43a8-9d38-3d32601e1b30:
+  PlayerSmell: Someone else's wallet that you stole that you know belongs to the guy
+    you saw at the store today. It also smells of weed and McDonalds french fries
+59a9885d-949e-460f-82f1-dc968ef9490d:
+  FursonaSpecies: fortune 69 book
+f00dea02-4607-4f14-9a35-207a28676ad3:
+  FursonaName: Pootis Nash
+  FursonaGender: Female
+  FursonaSpecies: Avian
+  FursonaBodyType: Anthro
+d7461435-ec65-49e9-9462-e6479baa60cc:
+  FursonaName: Xengi
+  FursonaSpecies: Folf
+  FursonaGender: Male
+  FursonaColors: Green, Brown, Cyan, White
+  FursonaBodyType: what is this mean't to mean.
+  FursonaBio: I like to code and have fun.
+df9f7bf2-7e21-4a4e-8ba2-f8c9d83280c1:
+  PlayerSmell: a precious delicious bean
+  PlayerAnimal: Nanachi
+ebe82f9f-4e18-42d1-9e59-2f5a0caa89d1:
+  PlayerAnimal: Avali
+  PlayerSmell: bussy
+882ee9d9-899b-4119-af54-7eb5089957ed:
+  PlayerSmell: Vanilla and ivy.
+  PlayerAnimal: Bunny.
+874eac24-51ea-4b25-bf89-bb12297570a6:
+  PlayerAnimal: Chip's Mom
+5665e5be-7b08-47cb-8909-030f8e32d159:
+  PlayerSmell: tshyne t
+10924c24-c87a-4b4b-b316-5828877e713b:
+  PlayerSmell: ryebread99
+7f9509f1-0cd1-4a77-9ee2-35f957ef1a6a:
+  FursonaName: stinkykins
+  FursonaBio: shes a stinky lady nd will fard on ur wife
+  FursonaColors: poopydoo brown and vomit green :))
+  FursonaGender: she is not of this mortal realm (she/her)
+  FursonaBodyType: a tub of lard. thats her. shes disgusting as hell.
+  FursonaSpecies: she is of the ancient fart species of YaLkDA and yes. just yes.
+23b59775-3b17-40f2-8486-fffb7b7ee778:
+  PlayerAnimal: Fox
+  PlayerSmell: blueberries
+  FursonaName: SkyksTheFox
+  FursonaBio: Adventurous little fox :p
+  FursonaColors: Blue, Green, Black, White, Light Blue, Gray
+  FursonaSpecies: Fox
+  FursonaGender: Male
+  FursonaBodyType: Anthro
+5b41d442-d148-4313-b492-303ce057d343:
+  PlayerAnimal: sloth
+  PlayerSmell: uh-oh stinkey
+9c07c679-3ae5-4082-9165-7a1ac62631a0:
+  PlayerAnimal: canine
+  FursonaName: DarkLight
+  FursonaBodyType: mesmomorph
+  FursonaSpecies: canine hybrid
+  FursonaGender: male
+  FursonaColors: blue and green
+  FursonaBio: hi
+  PlayerSmell: cheerioes
+1245fbfe-e50b-45a6-a595-059893e78625:
+  PlayerSmell: butterflies and Flowers
+3edb3496-f1b9-489a-85f1-056e755c0fe7:
+  PlayerAnimal: Fox
+  PlayerSmell: sweat, blood and tears
+afbf6a9a-c3bb-4b79-8179-62f929817694:
+  PlayerAnimal: Salmon
+  PlayerSmell: a smell
+9f453234-588d-4c7e-956f-1648ae639018:
+  PlayerAnimal: PuffelFish
+  PlayerSmell: 'No'
+  FursonaName: Lord PuffelFish
+  FursonaSpecies: PuffelFish
+  FursonaGender: God
+  FursonaColors: Red, yellow, blue
+  FursonaBodyType: 'yes'
+  FursonaBio: I am just here for fun, idk why
+3368f624-37b0-4d54-be6d-12a52382214b:
+  PlayerAnimal: wolf
+f4e7668a-2a99-467b-9dbf-df667c0890f3:
+  PlayerAnimal: a normal fucking person...
+  PlayerSmell: Redbull and tears
+ab73fed2-b22a-471b-8e6a-be6a32b4bdb4:
+  PlayerAnimal: Pink Guy
+ee31cf03-23c9-4544-8928-9e8c3d59ca21:
+  PlayerAnimal: joe biden
+34391505-7879-4c33-9ae5-8fd6b201955e:
+  PlayerSmell: oreos and peanut butter
+f0523f4d-25db-4afc-9cb8-e362736394f6:
+  PlayerAnimal: Dutch Angel Dragon
+  PlayerSmell: Drew1030
+bf357629-1cb8-4c33-a16a-cf2382d1adf5:
+  PlayerSmell: Big_Sexxy
+dfcc6ea1-f93c-40ce-a846-2d60b3413003:
+  PlayerSmell: mint
+  FursonaSpecies: bunny
+d5b3e9a4-389d-40cc-a464-6d77bf6e88fa:
+  PlayerAnimal: Wolf
+  PlayerSmell: JC
+  FursonaBio: Woof
+  FursonaColors: White & Light Blue
+  FursonaBodyType: Mesomorph
+  FursonaSpecies: Wolf
+  FursonaGender: Male
+  FursonaName: H20
+6c668b89-1eb5-4171-a659-5d52a54e94f3:
+  PlayerAnimal: Fox
+  PlayerSmell: Bubblegum
+  FursonaBio: My name is from a werewolf but Im actually a fox.
+  FursonaColors: Orange fur, black forearms and lower legs, orange-yellow fur from
+    neck under to under belly, and pink hair in a ponytail.
+  FursonaName: JC
+  FursonaSpecies: Fox
+  FursonaGender: Male (Gay)
+  FursonaBodyType: Small and kinda skinny.
+70b07b2b-eb74-4f36-9549-67a9bc784998:
+  PlayerAnimal: Nameless1002
+dab9fee3-0207-4451-bd27-0710af225c8f:
+  FursonaColors: green white grey
+  FursonaSpecies: Protogen
+  FursonaName: Replay
+  FursonaGender: Male
+  FursonaBodyType: u aint never gonna know
+  FursonaBio: bow down to the protogens
+  PlayerSmell: moist
+050beb98-04d1-4dc5-9bc3-3d9293047c76:
+  PlayerAnimal: Fox
+  PlayerSmell: Sawdust and Sweat
+2ded870c-b01c-43c3-a5bc-506cff561454:
+  FursonaGender: Male
+e871e0eb-9ce9-46ab-a81e-1e06e4b23ecc:
+  FursonaName: Vitaliy
+  FursonaGender: Male
+  FursonaSpecies: Fox
+  FursonaBodyType: Anthro
+  FursonaColors: Blue
+  FursonaBio: A laggy fox
+38dc684c-f11d-4139-864b-f108d08b9c27:
+  FursonaGender: Female
+  FursonaBodyType: Anthro
+76222d37-b1ab-4ba8-90f5-85e8b63e76f7:
+  PlayerSmell: Judy
+a641b32b-9e9b-488f-96b0-faa741d0ca27:
+  PlayerSmell: Ben_Shapiro
+  PlayerAnimal: Ben_Shapiro
+  FursonaName: Ben_Shapiro
+  FursonaGender: Attack_Helicopter
+  FursonaBodyType: Thiccie
+  FursonaSpecies: Gamer
+  FursonaColors: Red,_White,_and_Blue
+e1493d24-25bc-4edb-ad5a-b3e5485420fd:
+  PlayerSmell: e
+  FursonaSpecies: epic gamer human
+  FursonaGender: male
+  FursonaBio: e
+  FursonaBodyType: twig
+776a37ae-7600-4262-9679-afa6ccbe5d1a:
+  PlayerSmell: the fresh scent of morning dew
+  PlayerAnimal: White Tiger
+b3a6f995-d4af-4ceb-a1d2-7fede4f78a97:
+  PlayerAnimal: wolf
+ea51e2fd-870f-454f-af2f-41dd92eb892a:
+  PlayerSmell: cherries. Rero rero rero rero rero rero.
+06981a4d-2216-4fbd-b2fd-a63a7655d299:
+  PlayerSmell: Blueberries
+  PlayerAnimal: Wolf
+b920331e-3abc-4620-a6d9-7b4bda71db23:
+  PlayerSmell: like fish :3
+  PlayerAnimal: A female fox with a dick :P
+  FursonaSpecies: Fox
+824c6204-439c-4792-b106-d1e9c3588b51:
+  PlayerSmell: tiger
+86db7c7c-ccac-41b4-a28f-1c3ce54ba4ef:
+  PlayerSmell: clean skunk
+e5ecdf60-ac5b-4433-bc10-5c21b09ab0e4:
+  FursonaName: Kueni
+  FursonaGender: Herm
+  FursonaSpecies: Avali
+  FursonaBodyType: Smol
+  FursonaColors: White/Blue
+  FursonaBio: Smol boi who lives in fantasy.
+  PlayerSmell: Alien-birb
+5919f269-e807-4233-b21a-333f6307ef6f:
+  PlayerSmell: little cloud
+1aaea9de-5620-4f4d-94ff-8ec6c240fa62:
+  PlayerAnimal: deer
+  PlayerSmell: deer
+feff5c7d-2f1b-4b1e-aed7-b203f19d21e1:
+  PlayerAnimal: fox
+  PlayerSmell: weed
+ef2d558d-7bbc-4b5d-b85a-fa1ab205faea:
+  FursonaName: Phaen
+  FursonaGender: Male
+  FursonaSpecies: Yellow-bellied Flycatcher
+  FursonaBodyType: Slightly Feminine
+  FursonaColors: Green, creamy-yellow, bright yellow, and black
+  FursonaBio: A birb boyo that mostly just wants to get along with people
+132f48c9-7116-4639-ab24-58c1ed789a05:
+  PlayerSmell: §4tasty fire
+  PlayerAnimal: Fox
+a113c0c2-65a8-4ee7-ac2c-53e141acba83:
+  FursonaName: Tekame
+  FursonaBio: Fun loving - shy - loves classic music - steampunk enthusiast ofc XD
+  FursonaColors: dark purple, light gray, black, light purple
+  FursonaSpecies: Dutch Angel Dragon
+  FursonaGender: Male
+  FursonaBodyType: Unsure/Unknown
+44e9e334-e2b1-46cc-837b-d8fe77117df8:
+  PlayerSmell: bobbybob15
+3fcf4919-8a5b-4935-99bc-85b8f68f9c0f:
+  PlayerSmell: Wolf Fur and Industrial oil
+  PlayerAnimal: Wolf
+  FursonaGender: Male
+  FursonaSpecies: Wolf
+  FursonaColors: White and gray
+  FursonaName: Spark
+  FursonaBodyType: Anthro
+  FursonaBio: Looking for a mate...
+933edc8d-e9e7-4712-9080-c88dd49e8724:
+  FursonaName: Sky
+  FursonaGender: Female
+  FursonaSpecies: Dutch Angel Dragon
+  FursonaColors: White, Light Blue And Black
+  PlayerSmell: fluffy
+6ce0b2ec-3127-48f7-8564-27b5efd8df37:
+  PlayerSmell: Rotten flesh and fermented fish
+  FursonaName: Bug
+  FursonaColors: green, purple and black
+  FursonaGender: none
+  FursonaSpecies: possessed protogen
+  FursonaBodyType: Slim
+  PlayerAnimal: Wisp
+  FursonaBio: I'm a Split Spirit from olden times, freed from the keystone and here
+    to cause chaos.
+16c0953c-1461-4354-a5a8-9cb19cfc394e:
+  PlayerSmell: vanilla
+1cb4c759-0104-4b5c-8ee8-9d44b06ee95e:
+  PlayerSmell: blood, sweat, and tears
+31af1aeb-c63e-42b6-9a76-7c1397eaadbc:
+  PlayerSmell: lubricant
+8a85f899-199c-4e2b-ada1-2b8c57e3271d:
+  PlayerAnimal: goblin
+  PlayerSmell: msuhroom
+1662e04b-b914-4a28-be0a-73e530e43468:
+  PlayerSmell: a musky husky
+1d4a4c7e-44d0-4c6a-afab-67c0f314f02f:
+  PlayerSmell: The Dark Side Of The Moon
+5cda13e5-5d1a-453a-8cc1-949ee71c6a8f:
+  PlayerSmell: like a bakery
+b1e7f258-bc1c-41ab-9d68-54e4ff001b06:
+  FursonaSpecies: Reindeer
+  FursonaGender: Buck
+  FursonaName: Blitzen
+  FursonaColors: Brown
+  FursonaBodyType: THICC
+  FursonaBio: Member Of S.F.F'S
+b83f5839-2801-4001-84fd-faae1538933c:
+  PlayerSmell: Blue Raspberries
+  FursonaSpecies: Space Doggo
+a882ad49-166c-40f4-a6f7-8b5849941e0c:
+  FursonaName: Sonata
+  FursonaGender: Male
+  FursonaBodyType: Anthro
+  FursonaSpecies: Dragon
+  FursonaColors: Black, Blue, Gold, Silver
+  PlayerSmell: Peppermint
+  FursonaBio: 4'5" tall, 110lbs; Black scaled Dragon with silver tummy/undertail,
+    blue eyes. 2 Gold Rings encircle the tail, with another ring on each ankle.
+8a76baae-e50a-4384-99e4-ee1174288d7d:
+  FursonaGender: male
+  PlayerSmell: redstone
+b9f939b3-9a4a-4cf6-a35f-3f19d273943c:
+  FursonaName: Bagel
+  PlayerSmell: Bagels
+ea31bd3f-40a2-4b73-bf4f-a517b111a8f3:
+  PlayerSmell: Grassy
+  FursonaName: Greentop
+  FursonaSpecies: Poaceae
+  FursonaGender: Genderless
+  FursonaColors: Green
+  FursonaBodyType: Earthy
+  FursonaBio: am dirt, theres not much to say about it. Fuck grass, not each other.
+31ab3228-9e25-46ab-b8ce-56140c565d28:
+  PlayerAnimal: sheep
+e6a14bc5-abce-4c3e-ab9b-b5b2e52a74c7:
+  FursonaName: cum
+  FursonaBodyType: cum
+  FursonaBio: cum
+  FursonaColors: cum
+  FursonaGender: cum
+  FursonaSpecies: cum
+a838502b-f414-4292-827d-d7a0d1212749:
+  PlayerSmell: engines
+e7b47f64-fa38-4ef3-9f73-0f68697f660f:
+  PlayerSmell: cat
+afcfa197-b95e-40ce-9730-267a0779af34:
+  PlayerSmell: beans?
+  FursonaName: Jube
+  FursonaGender: nonbinary - they/them, xe/xem, he/him
+  FursonaSpecies: axolotl
+  FursonaColors: light pink main body, with darker pink frills. wears a white surgical
+    mask, and a desaturated teal sweater
+  FursonaBodyType: scrawny
+  FursonaBio: traumatized amphibian with cleaning compulsions. timid and reserved,
+    but has bursts of energy
+231ca540-2564-4666-a6e9-d84cb836b565:
+  PlayerSmell: lavender and fur
+  FursonaGender: male
+  FursonaSpecies: husky
+  FursonaName: Alen Heiser
+  PlayerAnimal: husky
+61a4698d-4968-4aea-94b5-3b5b96dd5943:
+  PlayerSmell: Stuff
+cd8b7f54-786c-4d61-8fea-47be469fc48c:
+  PlayerSmell: mcdonalds ice cream and fries
+  PlayerAnimal: A chunky doggo
+  FursonaName: Dove
+  FursonaBio: Short boi
+  FursonaColors: blacks grey orangy grey and white
+  FursonaBodyType: short 4ft
+  FursonaGender: Male
+  FursonaSpecies: Dutch angel dragon
+a08b6b69-89c4-46a6-b2e5-b4c961fa2aa5:
+  FursonaSpecies: wolf
+  PlayerSmell: Musky OwO
+  PlayerAnimal: LazyFeeling
+  FursonaName: Lupus
+  FursonaBio: LazyFeeling
+  FursonaGender: male
+  FursonaBodyType: thicc
+6ea26c8c-507f-481f-82f4-95a312ab5080:
+  PlayerSmell: hot chocolate
+ebe65b83-81cf-4416-b660-018098ad32da:
+  PlayerSmell: like coem
+b0076584-3215-4e67-9d27-dd139e29b425:
+  PlayerAnimal: Grey Wolf
+  PlayerSmell: Mint Chocolate Icecream sandwich
+0f2af987-3012-452c-9452-f8a8fa5979fa:
+  PlayerSmell: Mint
+7591557d-81ed-4a97-a58b-deb020448b8c:
+  PlayerSmell: 46 ham sandwiches
+8e161799-91af-4ac3-bab3-e9d14a5c051b:
+  PlayerSmell: ancientholidays
+2bbf930c-f0d3-41e7-9df7-180b16ebd83f:
+  PlayerSmell: Potato
+b0111818-2790-46fa-838e-c2d62ebda518:
+  FursonaGender: Male
+  FursonaName: Pink Panther
+  FursonaSpecies: Panther
+  FursonaBio: Looking for Minecraft GF
+  FursonaColors: whatever the frick panthers see
+  FursonaBodyType: Pink
+89fef1a3-1806-4581-9650-820b83135f7d:
+  PlayerSmell: S'mores
+  FursonaGender: Male
+  FursonaSpecies: Stoat
+  FursonaBodyType: Just floofy
+  FursonaColors: Brown, beige, and White
+  FursonaBio: I am a bubbly lil' stoat who loves to chat and meet new people! Feel
+    free to add me on Discord (CodeStoat#2576) or Telegram (@CodeStoat) anytime!
+  FursonaName: Cody
+bb55301c-d10e-4368-bdbd-9563c2b79d35:
+  PlayerSmell: Vanilla
+  FursonaName: Lilah
+  FursonaGender: Female
+  FursonaSpecies: Fox
+  FursonaBodyType: Very plump
+ca991a5f-3974-4034-8a49-e27c55a81d63:
+  PlayerSmell: anxiety
+87c3453a-7001-4f73-ab18-2257c73645d4:
+  PlayerSmell: cat
+e4b7e7a9-97f4-4a47-9b83-b9ed33398b2c:
+  FursonaSpecies: Coyote
+  FursonaName: Onyx
+  FursonaGender: Male
+  FursonaColors: Black and Yellow
+04689595-ec37-4768-b741-bae3b182b036:
+  PlayerSmell: G O O D
+35186705-b63d-473c-9a54-fc607e88f481:
+  FursonaSpecies: dragon
+  FursonaBodyType: sexy
+  FursonaGender: dragon
+  PlayerSmell: spunk
+be617134-5541-4111-93d7-aa5d541a6197:
+  PlayerSmell: shit
+ef178138-c1df-4366-8e10-03f29e7f573b:
+  FursonaColors: black, gray.
+  FursonaBio: Just a Plaguey boi ^^
+  FursonaBodyType: Near skeletal but not quite (Slymm).
+  FursonaName: m'Kaw
+  FursonaGender: (hhhhh) Switch (tho mainly male)
+  FursonaSpecies: Bird
+  PlayerSmell: Terminator5672
+f1ea6ce7-c0f6-4916-b097-1111f3dab17a:
+  FursonaBio: x0nder
+0dc1fd68-3334-4440-8117-9bcadedf9264:
+  PlayerSmell: Cheese
+  FursonaBodyType: Slender
+  FursonaColors: White and red with orange speckles along his back with an orange
+    crescent moon dead in the middle of his back.
+  FursonaGender: Male Intersex
+  FursonaName: Feshaw
+  FursonaSpecies: Sergal
+7d899d17-369f-4482-8a8b-fcd5a40580a6:
+  PlayerSmell: A Cloud of Axe Bodyspray
+d8c4b457-2af6-4aee-ae3f-5fded4944292:
+  FursonaName: Squeaky
+  PlayerSmell: grapes
+10ece500-35b8-4c0f-a826-be3147ccf1f0:
+  PlayerSmell: catto
+7f7830ee-2b67-4400-9251-a37cb0329497:
+  PlayerSmell: Rain
+1ff767a1-4ccd-428a-8c53-f4a6e2539b25:
+  FursonaName: bubby
+  FursonaGender: male
+  FursonaSpecies: snow leapard-lynx hybrid
+57afb217-89fd-401e-9661-fe89679d3c18:
+  FursonaName: Ziggy
+  FursonaGender: Male
+  FursonaSpecies: Sparkle-Dog
+  FursonaColors: Black/Dark-Blue Bright-Yellow(Star Like)
+  PlayerSmell: Strawberries with a tint of chocolate :)
+  FursonaBio: http://bit.ly/3aKeGgl
+ff7d92ee-2b30-438c-a08a-1c164608365d:
+  PlayerSmell: shit
+  PlayerAnimal: snowleopard
+  FursonaBodyType: Feral
+  FursonaSpecies: big cat
+  FursonaColors: purple and pink and also lilac
+  FursonaBio: Locra
+5515c58b-b8f3-4ea6-9e97-030ec26d4e4d:
+  PlayerSmell: mud
+  FursonaGender: male
+  FursonaSpecies: snow leopard
+  FursonaColors: red crimson blood rose and burgundy
+  FursonaName: locra
+  FursonaBodyType: good
+562c02fa-f1fb-46ac-b671-0691de8bb65e:
+  PlayerSmell: dirt
