@@ -1601,43 +1601,43 @@ RankAdd:
 
 
 
-#Command set for only Joshtiger.  Burst of cookies with the title "Cookie OuO"
-#cookie:
-#  command: /cookie
-#  type: RUN_CONSOLE
-#  runcmd:
-#  - /execute as $player at @s run function joshtiger:fun/cookie
-#
-#  permission-error: "&9&f[&4&lFF&f]: &cNuuu, only for cookie tigerrrs OwO"
-#  permission-required: true
-#  register: true
+#Command set for those with /op.  Burst of cookies with the title "Cookie OuO"
+cookie:
+  command: /cookie
+  type: RUN_CONSOLE
+  runcmd:
+  - /execute as $player at @s run function joshtiger:fun/cookie
+
+  permission-error: "&9&f[&4&lFF&f]: &cYou lack the appropriate permissions for this."
+  permission-required: true
+  register: true
  
- #Command set for only Joshtiger again. This is the burst of cookies that pops out of him like /cookie but with custom text over the cookies
-#cookie2:
-#  command: /cookie2
-#  type: RUN_CONSOLE
-#  runcmd:
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,0.0],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,0.0],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.0,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.0,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,-0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,-0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,-0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,-0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
-#
-#  required_args: 1
-#  error-message: "&9&f[&4&lFF&f]: &b/cookie2 &a[text]"
-#  permission-error: "&9&f[&4&lFF&f]: &cNuuu, only for cookie tigerrrs OwO"
-#  permission-required: true
+ #Command set for only those with /op again. This is the burst of cookies that pops out of him like /cookie but with custom text over the cookies
+cookie2:
+  command: /cookie2
+  type: RUN_CONSOLE
+  runcmd:
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,0.0],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,0.0],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.0,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.0,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.0,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,-0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[0.2,-0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,-0.2,0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+  - /execute as $player at @s run summon item ~ ~1 ~ {NoGravity:1b,CustomNameVisible:1b,Age:5900,PickupDelay:32767,Motion:[-0.2,-0.2,-0.2],CustomName:"{\"text\":\"$multiargs\"}",Item:{id:"minecraft:cookie",Count:1b}}
+
+  required_args: 1
+  error-message: "&9&f[&4&lFF&f]: &b/cookie2 &a[text]"
+  permission-error: "&9&f[&4&lFF&f]: &cYou lack the appropriate permissions for this."
+  permission-required: true
 
 #Broken.
 #jtcookie:
