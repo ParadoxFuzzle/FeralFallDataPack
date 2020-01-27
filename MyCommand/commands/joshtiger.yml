@@ -552,39 +552,39 @@ logout:
   permission-required: true
   
 #jtaddstaff, jtremovestaff and jta
-#replaced with LuckPerms and is redundant
-#jtaddstaff:
-#  command: /jtaddstaff
-#  type: RUN_CONSOLE
-#  runcmd:
-#  - '/tag $arg1 add IsStaff'
-#
-#  required_args: 1
-#  error-message: "&9&f[&4&lFF&f]: &cInvalid command..."
-#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
-#  permission-required: true
+#Create a tag for IsStaff that's used for lots of commands like /whoaccepted
+jtaddstaff:
+  command: /jtaddstaff
+  type: RUN_CONSOLE
+  runcmd:
+  - '/tag $arg1 add IsStaff'
+
+  required_args: 1
+  error-message: "&9&f[&4&lFF&f]: &cInvalid command..."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+  permission-required: true
   
-#jtremovestaff:
-#  command: /jtremovestaff
-#  type: RUN_CONSOLE
-#  runcmd:
-#  - '/tag $arg1 remove IsStaff'
-#
-#  required_args: 1
-#  error-message: "&9&f[&4&lFF&f]: &cInvalid command..."
-#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
-#  permission-required: true
-#  
-#jta:
-#  command: /jta
-#  type: RUN_CONSOLE
-#  runcmd:
-#  - /tellraw @a[tag=IsStaff] {"text":"&9[&2&lJ&6&lT§b§lStaff&9] &a<$player&a> &b$multiargs","color":"aqua"}
-#
-#  required_args: 1
-#  error-message: "&9&f[&4&lFF&f]: &b/jta &e[Message]"
-#  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
-#  permission-required: false
+jtremovestaff:
+  command: /jtremovestaff
+  type: RUN_CONSOLE
+  runcmd:
+  - '/tag $arg1 remove IsStaff'
+
+  required_args: 1
+  error-message: "&9&f[&4&lFF&f]: &cInvalid command..."
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+  permission-required: true
+  
+jta:
+  command: /jta
+  type: RUN_CONSOLE
+  runcmd:
+  - /tellraw @a[tag=IsStaff] {"text":"&9[&2&lJ&6&lT§b§lStaff&9] &a<$player&a> &b$multiargs","color":"aqua"}
+
+  required_args: 1
+  error-message: "&9&f[&4&lFF&f]: &b/jta &e[Message]"
+  permission-error: "&9&f[&4&lFF&f]: &cYou do not have permissions to use this command."
+  permission-required: false
 
 
 elmo:
